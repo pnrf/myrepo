@@ -1,0 +1,44 @@
+.logo_container {
+	margin-left: .8em;
+	display: flex;
+	flex-direction: column;
+	color: #647F94;
+}
+
+.logo_title {
+	font-weight: 800;
+	line-height: 1.2em;
+}
+
+.logo_subtitle {
+	font-weight: 400;
+	font-size: .8em;
+	line-height: 1.2em;
+}
+
+@media screen and (max-width: 424px) {
+  .logo_container {
+    margin-left: 0;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 849px) {
+  .logo_container {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 880px) and (max-width: 949px) {
+  .logo_container {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .logo_title {
+    font-size: .8em;
+  }
+
+	.logo_subtitle {
+		font-size: .6em;
+	}
+}
