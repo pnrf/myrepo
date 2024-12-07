@@ -23,9 +23,6 @@ export default {
 	'oformleniye-sbornika-istoriy-tekhpisateley': {
 		title: 'Сборник историй'
 	},
-	'perevod-dokumentatsii-nextra': {
-		title: 'Nextra 2.x'
-	},
 	'razrabotka-saita-portfolio-tekhpisatelya': {
 		title: 'Сайт-портфолио'
 	},
