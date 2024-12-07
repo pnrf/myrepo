@@ -7,11 +7,11 @@ export default {
     type: 'separator',
     title: 'Статьи'
   },
-	howCreateWebsiteWithDocumentation: 'Как создать сайт с документацией',
-	zachemTekhpisatelyuSaytPortfolio: 'Зачем техписателю сайт-портфолио',
+	'how-create-website-with-documentation': 'Как создать сайт с документацией',
+	'zachem-tekhpisatelyu-sayt-portfolio': 'Зачем техписателю сайт-портфолио',
 	'-- Notes': {
     type: 'separator',
     title: 'Заметки'
   },
-	poiskovayaOptimizatsiyaServisyYandex: 'Поисковая оптимизация. Сервисы Яндекса'
+	'poiskovaya-optimizatsiya-servisy-yandex': 'Поисковая оптимизация. Сервисы Яндекса'
 }

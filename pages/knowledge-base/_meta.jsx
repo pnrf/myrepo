@@ -3,7 +3,7 @@ export default {
 	'---': {
 		type: 'separator'
 	},
-	'vs-Code': 'VS Code',
-	docsAsCode: 'Docs as Code',
-	apiRestApi: 'API. REST API'
+	'vs-code': 'VS Code',
+	'docs-as-code': 'Docs as Code',
+	'api-rest-api': 'API. REST API'
 }
