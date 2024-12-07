@@ -3,7 +3,7 @@ export default {
 		type: "page"
 	},
 	index: 'Обо мне',
-	// portfolio: 'Портфолио',
-	knowledgeBase: 'База знаний',
+	portfolio: 'Портфолио',
+	'knowledge-base': 'База знаний',
 	blog: 'Блог'
 }
