@@ -35,7 +35,7 @@ export default {
 	'obucheniye-veb-razrabotke': {
 		title: 'Веб-разработка'
 	},
-	'websites-layout': {
+	'html-coding': {
 		title: 'Вёрстка веб-сайтов'
 	},
 	'razrabotka-sayta-dlya-tekhnicheskikh-pisateley': {
