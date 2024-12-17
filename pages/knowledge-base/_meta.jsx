@@ -3,7 +3,9 @@ export default {
 	'---': {
 		type: 'separator'
 	},
-	'vs-code': 'VS Code',
+	'api-rest-api': 'API. REST API',
 	'docs-as-code': 'Docs as Code',
-	'api-rest-api': 'API. REST API'
+	'git': 'Git и Bash',
+	'github': 'Github',
+	'vs-code': 'Visual Studio Code'
 }

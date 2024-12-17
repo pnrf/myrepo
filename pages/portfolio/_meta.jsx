@@ -1,8 +1,16 @@
 export default {
-	index: 'Дисклеймер',
+	index: 'Содержание',
 	'---': {
     type: 'separator'
   },
 	projects: 'Проекты',
-	showcases: 'Документы'
+	showcases: 'Документы',
+	manual_link: {
+    title: 'Инструкции',
+    href: 'https://www.myrepo.ru/blog#инструкции'
+  },
+	storybook_link: {
+    title: 'UI-компоненты ↗',
+    href: '#'
+  }
 }

@@ -75,5 +75,13 @@ export default {
 				<s />
       </span>
     )
+  },
+	banner: {
+    key: 'privacy-warning',
+    content: (
+      <p>
+        ⚙️ Сайт находится в стадии разработки.
+      </p>
+    )
   }
 }
