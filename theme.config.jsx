@@ -68,9 +68,10 @@ export default {
 	footer: {
     content: (
       <span>
-        <p style={{ paddingBottom: '10px', fontSize: '.8em', lineHeight: '1.2em', color: '#647F94' }}>©{' Myrepo.ru'}, {new Date().getFullYear()}. {' Все права защищены.'} </p>
+        <p style={{ paddingBottom: '10px', fontSize: '.8em', lineHeight: '1.2em', color: '#647F94' }}>©{' Панкратов Ю.А.'}, 2024-{new Date().getFullYear()}. {' Все права защищены'} </p>
+				<p style={{ fontSize: '.8em', lineHeight: '1.2em', color: '#647F94' }}>Myrepo.ru – сайт-портфолио технического писателя</p>
 				<p style={{ paddingBottom: '10px', fontSize: '.8em', lineHeight: '1.2em', color: '#647F94' }}>
-					Сайт работает на <a href="https://github.com" target="_blank"> Github</a>, <a href="https://vercel.com" target="_blank">Vercel</a>, <a href="https://nextjs.org" target="_blank"> Next.js</a> и <a href="https://nextra.site" target="_blank"> Nextra</a>
+					работает на <a href="https://github.com" target="_blank"> Github</a>, <a href="https://vercel.com" target="_blank">Vercel</a>, <a href="https://react.dev" target="_blank"> React</a>, <a href="https://nextjs.org" target="_blank"> Next.js</a> и <a href="https://nextra.site" target="_blank"> Nextra</a>
 				</p>
 				<s />
       </span>
