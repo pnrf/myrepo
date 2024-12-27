@@ -67,8 +67,25 @@ export default {
 	faviconGlyph: '🐀',
 	footer: {
 		content: (
-			<div>
-				<div style={{ marginBottom: '40px', display: 'flex', flexDirection: 'row', flexWrap: 'wrap', gap: '60px' }}>
+			<div style={{width: '100%', display: 'flex', alignItems: 'baseline', flexWrap: 'wrap', gap: '60px'}}>
+				<div>
+					<p style={{ fontSize: '.8em', lineHeight: '1.2em', color: '#647F94' }}>Myrepo.ru – сайт-портфолио технического писателя</p>
+					<p style={{ paddingBottom: '10px', fontSize: '.8em', lineHeight: '1.2em', color: '#647F94' }}>© 2024-{new Date().getFullYear()}{', Панкратов Ю.А.'}. {' Все права защищены'} </p>
+					<p style={{ fontSize: '.8em', lineHeight: '1.2em', color: '#647F94' }}>
+						Сайт работает на <a href="https://github.com" target="_blank"> Github</a>, <a href="https://vercel.com" target="_blank">Vercel</a>, <a href="https://react.dev" target="_blank"> React</a>, <a href="https://nextjs.org" target="_blank"> Next.js</a> и <a href="https://nextra.site" target="_blank"> Nextra</a>
+					</p>
+					<p style={{ fontSize: '.8em', lineHeight: '1.2em', color: '#647F94' }}>Применяются сервисы и технологии Яндекса и Google</p>
+					<span style={{display: 'inline-block', margin: "20px 0", padding: "10px", border: '1px solid rgb(170, 195, 214)', borderRadius: '50%', color: '#647F94'}}>18+</span>
+				</div>
+				<div style={{ marginBottom: '20px', display: 'flex', flexDirection: 'row', flexWrap: 'wrap', gap: '60px' }}>
+					<div>
+						<p style={{ paddingBottom: '16px', fontWeight: 800, lineHeight: '1.2em', color: '#647F94' }}>Портфолио</p>
+						<ul style={{ fontSize: '.8em', lineHeight: '1.2em', color: '#647F94' }}>
+							<li style={{ marginBottom: '6px' }}><a href="https://www.myrepo.ru/portfolio/projects">Проекты</a></li>
+							<li style={{ marginBottom: '6px' }}><a href="https://www.myrepo.ru/portfolio/showcases">Документы</a></li>
+							<li style={{ marginBottom: '6px' }}><a href="#">UI-компоненты</a></li>
+						</ul>
+					</div>
 					<div>
 						<p style={{ paddingBottom: '16px', fontWeight: 800, lineHeight: '1.2em', color: '#647F94' }}>Автор</p>
 						<ul style={{ fontSize: '.8em', lineHeight: '1.2em', color: '#647F94' }}>
@@ -79,29 +96,12 @@ export default {
 						</ul>
 					</div>
 					<div>
-						<p style={{ paddingBottom: '16px', fontWeight: 800, lineHeight: '1.2em', color: '#647F94' }}>Портфолио</p>
-						<ul style={{ fontSize: '.8em', lineHeight: '1.2em', color: '#647F94' }}>
-							<li style={{ marginBottom: '6px' }}><a href="https://www.myrepo.ru/portfolio/projects">Проекты</a></li>
-							<li style={{ marginBottom: '6px' }}><a href="https://www.myrepo.ru/portfolio/showcases">Документы</a></li>
-							<li style={{ marginBottom: '6px' }}><a href="#">UI-компоненты</a></li>
-						</ul>
-					</div>
-					<div>
 						<p style={{ paddingBottom: '16px', fontWeight: 800, lineHeight: '1.2em', color: '#647F94' }}>Правовая информация</p>
 						<ul style={{ fontSize: '.8em', lineHeight: '1.2em', color: '#647F94' }}>
 							<li style={{ marginBottom: '6px' }}><a href="#">Пользовательское соглашение</a></li>
 							<li style={{ marginBottom: '6px' }}><a href="#">Политика конфиденциальности</a></li>
 						</ul>
 					</div>
-				</div>
-				<div>
-					<p style={{ fontSize: '.8em', lineHeight: '1.2em', color: '#647F94' }}>Myrepo.ru – сайт-портфолио технического писателя</p>
-					<p style={{ paddingBottom: '10px', fontSize: '.8em', lineHeight: '1.2em', color: '#647F94' }}>© 2024-{new Date().getFullYear()}{', Панкратов Ю.А.'}. {' Все права защищены'} </p>
-					<p style={{ fontSize: '.8em', lineHeight: '1.2em', color: '#647F94' }}>Возрастные ограничения: 18+</p>
-					<p style={{ fontSize: '.8em', lineHeight: '1.2em', color: '#647F94' }}>
-						Сайт работает на <a href="https://github.com" target="_blank"> Github</a>, <a href="https://vercel.com" target="_blank">Vercel</a>, <a href="https://react.dev" target="_blank"> React</a>, <a href="https://nextjs.org" target="_blank"> Next.js</a> и <a href="https://nextra.site" target="_blank"> Nextra</a>
-					</p>
-					<p style={{ fontSize: '.8em', lineHeight: '1.2em', color: '#647F94' }}>Применяются сервисы и технологии Яндекса и Google</p>
 				</div>
 			</div>
 		)
