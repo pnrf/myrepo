@@ -8,7 +8,7 @@ export default function RenderPhotoBlock(icon, onIconClick) {
 	
 	arr.forEach((elm) => {
 			newArr.push(
-				<li>
+				<li key={elm.figcaption}>
 					<img className={styles.icons_item} src={elm.image} alt={elm.figcaption} onClick={handleIconClick}/>
 				</li>
 			)
