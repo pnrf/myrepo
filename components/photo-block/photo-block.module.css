@@ -1,0 +1,49 @@
+.wrapper {
+	display: flex;
+	gap: 10px;
+}
+
+.image {
+	width: 300px;
+	height: 300px;
+	object-fit: cover;
+	border: 1px solid rgb(128, 128, 128);
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.icons {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+
+.icons_list {
+	max-height: 185px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	gap: 10px;
+}
+
+.icons_item {
+	width: 45px;
+	height: 45px;
+	object-fit: cover;
+	border: 1px solid rgb(128, 128, 128);
+	border-radius: 10px;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.icons_item_empty {
+	width: 45px;
+	height: 45px;
+	border: 1px solid rgb(152, 152, 152);
+	border-radius: 10px;
+}
+
+.figcaption {
+	font-size: 10px;
+	font-style: italic;
+}
