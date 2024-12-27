@@ -70,21 +70,21 @@ export default {
 			<div>
 				<div style={{ marginBottom: '40px', display: 'flex', flexDirection: 'row', flexWrap: 'wrap', gap: '60px' }}>
 					<div>
-						<p style={{ paddingBottom: '16px', fontWeight: 800, lineHeight: '1.2em', color: '#647F94' }}>Портфолио</p>
-						<ul style={{ fontSize: '.8em', lineHeight: '1.2em', color: '#647F94' }}>
-							<li style={{ marginBottom: '6px' }}><a href="#">Проекты</a></li>
-							<li style={{ marginBottom: '6px' }}><a href="#">Документы</a></li>
-							<li style={{ marginBottom: '6px' }}><a href="#">Инструкции</a></li>
-							<li style={{ marginBottom: '6px' }}><a href="#">UI-компоненты</a></li>
-						</ul>
-					</div>
-					<div>
 						<p style={{ paddingBottom: '16px', fontWeight: 800, lineHeight: '1.2em', color: '#647F94' }}>Автор</p>
 						<ul style={{ fontSize: '.8em', lineHeight: '1.2em', color: '#647F94' }}>
 							<li style={{ marginBottom: '6px' }}><a href="#">Обо мне</a></li>
 							<li style={{ marginBottom: '6px' }}><a href="#">Блог</a></li>
 							<li style={{ marginBottom: '6px' }}><a href="#">База знаний</a></li>
 							<li style={{ marginBottom: '6px' }}><a href="#">Контакты</a></li>
+						</ul>
+					</div>
+					<div>
+						<p style={{ paddingBottom: '16px', fontWeight: 800, lineHeight: '1.2em', color: '#647F94' }}>Портфолио</p>
+						<ul style={{ fontSize: '.8em', lineHeight: '1.2em', color: '#647F94' }}>
+							<li style={{ marginBottom: '6px' }}><a href="#">Проекты</a></li>
+							<li style={{ marginBottom: '6px' }}><a href="#">Документы</a></li>
+							<li style={{ marginBottom: '6px' }}><a href="#">Инструкции</a></li>
+							<li style={{ marginBottom: '6px' }}><a href="#">UI-компоненты</a></li>
 						</ul>
 					</div>
 					<div>
