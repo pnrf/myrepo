@@ -2,23 +2,25 @@ import { useState } from 'react'
 import styles from './photo-block.module.css'
 import arr from './photo-block-arr.json'
 
-export default function RenderPhotoBlock(icon, onIconClick) {
+export default function RenderPhotoBlock() {
 	const newArr = [];
 	const [selectedIcon, setSelectedIcon] = useState(null);
 	
 	arr.forEach((elm) => {
 			newArr.push(
 				<li key={elm.figcaption}>
-					<img className={styles.icons_item} src={elm.image} alt={elm.figcaption} onClick={handleIconClick}/>
+					<img className={styles.icons_item} src={elm.image} alt={elm.figcaption} onClick={setSelectedIcon}/>
 				</li>
 			)
 		}
 	)
 
-	function handleIconClick(icon) {
-    setSelectedIcon(icon)
-  }
-
+	for (let i=0; i<14; i++) {
+		newArr.push(
+			<li key={`likey-${i}`} className={styles.icons_item_empty}></li>
+		)
+	}
+	
 	return (
 		<section>
 			<div className={styles.wrapper}>
@@ -26,10 +28,6 @@ export default function RenderPhotoBlock(icon, onIconClick) {
 				<div className={styles.icons}>
 					<ul className={styles.icons_list}>
 						{newArr}
-						<li className={styles.icons_item_empty}></li>
-						<li className={styles.icons_item_empty}></li>
-						<li className={styles.icons_item_empty}></li>
-						<li className={styles.icons_item_empty}></li>
 					</ul>
 				</div>
 			</div>

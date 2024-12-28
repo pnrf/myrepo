@@ -30,7 +30,7 @@ export default {
     </>
   ),
 	project: {
-    link: 'https://github.com/pnrf/myrepo',
+    link: 'https://github.com/pnrf',
   },
 	search: {
 		placeholder: 'Поиск по сайту...'
