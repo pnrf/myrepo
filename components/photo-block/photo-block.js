@@ -15,7 +15,7 @@ export default function RenderPhotoBlock() {
 		}
 	)
 
-	for (let i=0; i<14; i++) {
+	for (let i=0; i<20; i++) {
 		newArr.push(
 			<li key={`likey-${i}`} className={styles.icons_item_empty}></li>
 		)
