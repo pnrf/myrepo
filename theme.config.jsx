@@ -51,10 +51,10 @@ export default {
 		extraContent: (
 			<>
 				<h3 style={{marginTop: "20px", fontWeight: "600", lineHeight: "20px"}}>Об авторе</h3>
-				<p>С 2023 г. работаю техническим писателем в ИТ.</p>
-				<p>Разрабатываю документацию по программным продуктам, пишу тексты для интерфейсов и создаю контент для баз знаний.</p>
+				<p>С 2023 г. <a style={{paddingTop: "6px", color: "#3b82f6"}} href="https://www.myrepo.ru">работаю</a> техническим писателем в ИТ.</p>
+				<p>Разрабатываю <a style={{paddingTop: "6px", color: "#3b82f6"}} href="https://www.myrepo.ru/portfolio">документацию</a> по программным продуктам, пишу тексты для интерфейсов и создаю контент для баз знаний.</p>
 				<p>В<a style={{paddingTop: "6px", color: "#3b82f6"}} href="https://www.myrepo.ru/blog"> своем блоге</a> делюсь мыслями о профессии и технологиях.</p>
-				<a style={{marginBottom: "20px", color: "#3b82f6"}} href="https://www.myrepo.ru/">Подробнее →</a>
+				<p>В<a style={{paddingTop: "6px", color: "#3b82f6"}} href="https://www.myrepo.ru/knowledge-base"> базе знаний</a> кратко описываю технологии, с которыми довелось поработать.</p>
 			</>
 		)
 	},
