@@ -50,7 +50,7 @@ export default {
 		backToTop: "Прокрутить вверх",
 		extraContent: (
 			<>
-				<h3 style={{marginTop: "20px", fontWeight: "600", lineHeight: "20px"}}>Об авторе</h3>
+				<h3 style={{margin: "20px 0", fontWeight: "600", lineHeight: "20px"}}>Об авторе</h3>
 					<p style={{fontSize: "12px"}}>С 2023 г. <a style={{paddingTop: "6px", color: "#3b82f6"}} href="https://www.myrepo.ru">работаю</a> техническим писателем в ИТ.</p>
 					<p style={{fontSize: "12px"}}>Разрабатываю <a style={{paddingTop: "6px", color: "#3b82f6"}} href="https://www.myrepo.ru/portfolio">документацию</a> по программным продуктам, пишу тексты для интерфейсов и создаю контент для баз знаний.</p>
 					<p style={{fontSize: "12px"}}>В своем <a style={{paddingTop: "6px", color: "#3b82f6"}} href="https://www.myrepo.ru/blog">блоге</a> делюсь мыслями о профессиональных навыках.</p>
