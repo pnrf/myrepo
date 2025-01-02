@@ -2,7 +2,11 @@ export default {
 	'*': {
 		type: "page"
 	},
-	index: 'Обо мне',
+	index: {
+		title: 'Главная',
+		display: 'hidden'
+	},
+	blog: 'Блог',
 	portfolio: {
     title: 'Портфолио',
     theme: {
@@ -15,5 +19,5 @@ export default {
       breadcrumb: true
     }
   },
-	blog: 'Блог'
+	about: 'Автор'
 }
