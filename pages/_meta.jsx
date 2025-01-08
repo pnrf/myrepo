@@ -6,7 +6,7 @@ export default {
 		title: 'Главная',
 		display: 'hidden'
 	},
-	blog: 'Блог',
+	about: 'Обо мне',
 	portfolio: {
     title: 'Портфолио',
     theme: {
@@ -19,5 +19,5 @@ export default {
       breadcrumb: true
     }
   },
-	about: 'Автор'
+	blog: 'Блог'
 }
