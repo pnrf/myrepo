@@ -79,7 +79,7 @@ export default {
 			<div style={{width: '100%', display: 'flex', alignItems: 'baseline', flexWrap: 'wrap', gap: '60px'}}>
 				<div>
 					<p style={{ fontSize: '.8em', lineHeight: '1.2em', color: '#647F94' }}>Myrepo.ru – сайт-портфолио технического писателя</p>
-					<p style={{ paddingBottom: '10px', fontSize: '.8em', lineHeight: '1.2em', color: '#647F94' }}>© 2024-{new Date().getFullYear()}{', Панкратов Ю.А.'}. {' Все права защищены'} </p>
+					<p style={{ paddingBottom: '10px', fontSize: '.8em', lineHeight: '1.2em', color: '#647F94' }}>© 2024-{new Date().getFullYear()}{', Панкратов Ю.А.'} {' Все права защищены'} </p>
 					<p style={{ fontSize: '.8em', lineHeight: '1.2em', color: '#647F94' }}>
 						Сайт работает на <a href="https://github.com" target="_blank"> Github</a>, <a href="https://vercel.com" target="_blank">Vercel</a>, <a href="https://react.dev" target="_blank"> React</a>, <a href="https://nextjs.org" target="_blank"> Next.js</a> и <a href="https://nextra.site" target="_blank"> Nextra</a>
 					</p>
@@ -88,33 +88,6 @@ export default {
 					<div style={{display: 'flex', gap: '10px'}}>
 						<span style={{display: 'inline-block', margin: "20px 0", padding: "10px", border: '1px solid rgb(170, 195, 214)', borderRadius: '50%', backgroundColor: '#647F94', color: 'white'}}>18+</span>
 						<span style={{display: 'inline-block', margin: "20px 0", padding: "10px", border: '1px solid rgb(170, 195, 214)', borderRadius: '50%', color: '#647F94'}}>RU</span>
-					</div>
-
-				</div>
-				<div style={{ marginBottom: '20px', display: 'flex', flexDirection: 'row', flexWrap: 'wrap', gap: '60px' }}>
-					<div>
-						<p style={{ paddingBottom: '16px', fontWeight: 800, lineHeight: '1.2em', color: '#647F94' }}>Портфолио</p>
-						<ul style={{ fontSize: '.8em', lineHeight: '1.2em', color: '#647F94' }}>
-							<li style={{ marginBottom: '6px' }}><a href="https://www.myrepo.ru/portfolio/projects">Проекты</a></li>
-							<li style={{ marginBottom: '6px' }}><a href="https://www.myrepo.ru/portfolio/showcases">Документы</a></li>
-							<li style={{ marginBottom: '6px' }}><a href="#">UI-компоненты</a></li>
-						</ul>
-					</div>
-					<div>
-						<p style={{ paddingBottom: '16px', fontWeight: 800, lineHeight: '1.2em', color: '#647F94' }}>Автор</p>
-						<ul style={{ fontSize: '.8em', lineHeight: '1.2em', color: '#647F94' }}>
-							<li style={{ marginBottom: '6px' }}><a href="https://www.myrepo.ru">Обо мне</a></li>
-							<li style={{ marginBottom: '6px' }}><a href="https://www.myrepo.ru/blog">Блог</a></li>
-							<li style={{ marginBottom: '6px' }}><a href="https://www.myrepo.ru/knowledge-base">База знаний</a></li>
-							<li style={{ marginBottom: '6px' }}><a href="https://www.myrepo.ru/#контакты">Контакты</a></li>
-						</ul>
-					</div>
-					<div>
-						<p style={{ paddingBottom: '16px', fontWeight: 800, lineHeight: '1.2em', color: '#647F94' }}>Правовая информация</p>
-						<ul style={{ fontSize: '.8em', lineHeight: '1.2em', color: '#647F94' }}>
-							<li style={{ marginBottom: '6px' }}><a href="#">Пользовательское соглашение</a></li>
-							<li style={{ marginBottom: '6px' }}><a href="#">Политика конфиденциальности</a></li>
-						</ul>
 					</div>
 				</div>
 			</div>
