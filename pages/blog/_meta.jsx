@@ -1,5 +1,11 @@
 export default {
-	index: 'Содержание',
+	index: {
+		title: 'Содержание',
+		theme: {
+			breadcrumbs: false,
+			pagination: false
+		}
+	},
 	'---': {
     type: 'separator'
   },

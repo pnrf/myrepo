@@ -4,9 +4,11 @@ export default {
     type: 'separator'
   },
 	projects: 'Проекты',
-	showcases: 'Документы',
+	documents: 'Документы',
+	flowcharts: 'Блок-схемы',
 	storybook_link: {
     title: 'UI-компоненты ↗',
     href: '#'
-  }
+  },
+	illustrations: 'Иллюстрации'
 }

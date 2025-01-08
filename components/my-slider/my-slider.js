@@ -1,8 +1,7 @@
 import { useState } from 'react'
-import styles from './photo-block.module.css'
-import arr from './photo-block-arr.json'
+import styles from './my-slider.module.css'
 
-export default function RenderPhotoBlock() {
+export default function RenderMySlider(arr) {
 	const newArr = [];
 	const [selectedIcon, setSelectedIcon] = useState(null);
 	

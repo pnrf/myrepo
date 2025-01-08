@@ -6,7 +6,13 @@ export default {
 		title: 'Главная',
 		display: 'hidden'
 	},
-	about: 'Обо мне',
+	about: {
+		title: 'Обо мне',
+		theme: {
+			breadcrumb: false,
+			sidebar: false
+		}
+	},
 	portfolio: {
     title: 'Портфолио',
     theme: {
