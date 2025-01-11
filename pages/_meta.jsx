@@ -9,8 +9,8 @@ export default {
 	about: {
 		title: 'Обо мне',
 		theme: {
-			breadcrumb: false,
-			sidebar: false
+			breadcrumb: true,
+			sidebar: true
 		}
 	},
 	portfolio: {
@@ -25,5 +25,11 @@ export default {
       breadcrumb: true
     }
   },
-	blog: 'Блог'
+	blog: {
+		title: 'Блог',
+		theme: {
+			breadcrumb: true,
+			sidebar: false
+		}
+	}
 }
