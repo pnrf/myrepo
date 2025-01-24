@@ -13,7 +13,7 @@ export default {
  
     return (
       <>
-				<meta name="yandex-verification" content="bb075df507c3b509" />
+				{/* <meta name="yandex-verification" content="bb075df507c3b509" /> */}
         <meta property="og:url" content={url} />
         <meta property="og:title" content={frontMatter.title || 'Мой репозиторий'} />
         <meta

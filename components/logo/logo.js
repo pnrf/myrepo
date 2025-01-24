@@ -4,10 +4,10 @@ export default function Logo() {
   return (
 		<div className={styles.logo_container}>
 			<span className={styles.logo_title}>
-				Юрий Панкратов
+				Мой репозиторий
 			</span>
 			<span className={styles.logo_subtitle}>
-				технический писатель
+				сайт-портфолио техписателя
 			</span>
 	</div>
   )
