@@ -1,10 +1,15 @@
+import Layout from "nextra-theme-docs";
+
 export default {
 	'*': {
 		type: "page"
 	},
 	index: {
 		title: 'Главная',
-		display: 'hidden'
+		display: 'hidden',
+		theme: {
+			layout: 'full'
+		}
 	},
 	about: {
 		title: 'Обо мне',
