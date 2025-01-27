@@ -37,11 +37,11 @@ export default function MainPage() {
 					<div style={{display: "flex", flexDirection: "column", justifyContent: "space-between", height: "100%"}}>
 						<div style={{display: "flex", flexDirection: "column", justifyContent: "space-between"}}>
 							<ul style={{listStyle: "inside"}}>
-								<li><a href="./portfolio/projects/registratsiya-rossiyskogo-po-v-reyestre-mintsifry.mdx">Регистрация российского ПО в реестре Минцифры</a></li>
-								<li><a href="./portfolio/projects/registratsiya-rossiyskogo-po-v-reyestre-mintsifry.mdx">Регистрация программ для ЭВМ в Роспатенте</a></li>
-								<li><a href="./portfolio/projects/registratsiya-rossiyskogo-po-v-reyestre-mintsifry.mdx">Регистрация ПО в Росздравнадзоре</a></li>
-								<li><a href="./portfolio/projects/registratsiya-rossiyskogo-po-v-reyestre-mintsifry.mdx">Составление заявок на получение грантов</a></li>
-								<li><a href="./portfolio/projects/registratsiya-rossiyskogo-po-v-reyestre-mintsifry.mdx">Составление документов для участия в госзакупках</a></li>
+								<li><a href="/portfolio/projects/registratsiya-rossiyskogo-po-v-reyestre-mintsifry">Регистрация российского ПО в реестре Минцифры</a></li>
+								<li><a href="/portfolio/projects/registratsiya-programm-dlya-evm-v-rospatente">Регистрация программ для ЭВМ в Роспатенте</a></li>
+								<li><a href="/portfolio/projects/registratsiya-po-v-roszdravnadzore">Регистрация ПО в Росздравнадзоре</a></li>
+								<li><a href="/portfolio/projects/sostavleniye-zayavok-na-polucheniye-grantov">Составление заявок на получение грантов</a></li>
+								<li><a href="/portfolio/projects/sostavleniye-dokumentov-dlya-uchastiya-v-goszakupkakh">Составление документов для участия в госзакупках</a></li>
 							</ul>
 						</div>
 						<a href="/portfolio/projects">Все проекты <span>→</span></a>
