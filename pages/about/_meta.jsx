@@ -4,7 +4,7 @@ export default {
     type: 'separator'
   },
 	skills: 'Умения и навыки',
-	artifacts: 'Поиск работы',
+	artifacts: 'Артефакты',
 	faq: 'FAQ',
 	contacts: 'Контакты'
 }

@@ -12,7 +12,7 @@ export default function MainPage() {
 					<p style={{marginTop: "1.5em", lineHeight: "1.75em"}}>На этом сайте собрал краткую информацию <a style={{color: "rgb(0, 107, 230)", textDecoration: "underline"}} href="/about/">о себе</a>, <a style={{color: "rgb(0, 107, 230)", textDecoration: "underline"}} href="/portfolio/">портфолио</a>, <a style={{color: "rgb(0, 107, 230)", textDecoration: "underline"}} href="/knowledge-base/">базу знаний</a> и <a style={{color: "rgb(0, 107, 230)", textDecoration: "underline"}} href="/blog/">блог</a>, чтобы показать свои умения и навыки на реальных примерах. </p>
 					<p style={{marginTop: "1.5em", lineHeight: "1.75em"}}>Это позволяет эффективнее общаться с рекрутерами и тимлидами в процессе поиска работы. Экономит время.</p>
 					<div style={{display: "flex", gap: "10px", marginTop: "1.5em", lineHeight: "1.75em"}}>
-						<a style={{textAlign: "center", display: "inline-block", textDecoration: "none", border: "1px solid #647F94", borderRadius: "8px", padding: ".75rem 1.5rem", marginTop: ".5rem", boxShadow: "0 1px 1px #00387838"}} href="https://drive.google.com/file/d/1TGSSwcalFYnvuWGaRpjOszSLqf-qom1H/view?usp=sharing">Скачать резюме <span>↗</span></a>
+						<a style={{textAlign: "center", display: "inline-block", textDecoration: "none", border: "1px solid #647F94", borderRadius: "8px", padding: ".75rem 1.5rem", marginTop: ".5rem", target: "_blank"}} href="https://drive.google.com/file/d/1-3_jDyjNfZPBhAjtSyg3uP93ApZeQcSx/view?usp=sharing">Скачать резюме <span>↗</span></a>
 					</div>
 				</div>
 				<div style={{margin: "20px auto 0 50px"}}>
@@ -26,11 +26,10 @@ export default function MainPage() {
 					<div style={{display: "flex", flexDirection: "column", justifyContent: "space-between", height: "100%"}}>
 						<div style={{display: "flex", flexDirection: "column", justifyContent: "space-between"}}>
 							<p style={{paddingBottom: "20px"}}>Работаю в ИТ с 2023 года.</p> 
-							<p>Разрабатываю техническую и юридическую документацию по программным продуктам, пишу тексты для интерфейсов и создаю контент для корпоративных баз знаний. Изучаю ГОСТ 19 и 34 серий. Общаюсь с сообществом.</p>
-							<br />
-							<br />
+							<p style={{paddingBottom: "20px"}}>Разрабатываю техническую и юридическую документацию по программным продуктам, пишу тексты для интерфейсов и создаю контент для корпоративных баз знаний.</p>
+							<p style={{paddingBottom: "40px"}}>Изучаю ГОСТ 19 и 34 серий. Общаюсь с сообществом.</p>
 						</div>
-						<a href="/portfolio/projects">Подробнее <span>→</span></a>
+						<a href="/about">Подробнее <span>→</span></a>
 					</div>
 				</div>
 				<div style={{display: "flex", flexDirection: "column", border: "1px solid #647F94", borderRadius: "8px", padding: ".75rem 1.5rem", marginTop: ".5rem"}}>
