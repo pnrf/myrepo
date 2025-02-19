@@ -10,13 +10,13 @@ export default function MainPage() {
 					<h1 style={{fontSize: "60px", fontWeight: "700", lineHeight: "1.2"}}>Юрий Панкратов</h1>
 					<h2 style={{fontSize: "40px", color: "#647F94"}}>технический писатель</h2>
 					<p style={{marginTop: "1.5em", lineHeight: "1.75em"}}>На этом сайте собрал краткую информацию <a style={{color: "rgb(0, 107, 230)", textDecoration: "underline"}} href="/about/">о себе</a>, <a style={{color: "rgb(0, 107, 230)", textDecoration: "underline"}} href="/portfolio/">портфолио</a>, <a style={{color: "rgb(0, 107, 230)", textDecoration: "underline"}} href="/knowledge-base/">базу знаний</a> и <a style={{color: "rgb(0, 107, 230)", textDecoration: "underline"}} href="/blog/">блог</a>, чтобы показать свои умения и навыки на реальных примерах. </p>
-					<p style={{marginTop: "1.5em", lineHeight: "1.75em"}}>Это позволяет эффективнее общаться с рекрутерами и тимлидами в процессе поиска работы. Экономит время.</p>
+					<p style={{marginTop: "1.5em", lineHeight: "1.75em"}}>Это позволяет эффективнее общаться с рекрутерами и тимлидами в процессе поиска работы. Экономит время.</p>					
 					<div style={{display: "flex", gap: "10px", marginTop: "1.5em", lineHeight: "1.75em"}}>
 						<a style={{textAlign: "center", display: "inline-block", textDecoration: "none", border: "1px solid #647F94", borderRadius: "8px", padding: ".75rem 1.5rem", marginTop: ".5rem", target: "_blank"}} href="https://drive.google.com/file/d/19OEJ1l-lD0T91tixJFyk0I11RUvQTsK7/view?usp=share_link">Скачать резюме <span>↗</span></a>
 					</div>
 				</div>
 				<div style={{margin: "20px auto 0 50px"}}>
-					<MySliderPhotos />
+					<img src="#" alt="Фоновое фото" />
 				</div>
 			</section>
 			<h2 style={{fontSize: "40px", color: "#647F94", paddingBottom: "20px"}}>Портфолио</h2>
