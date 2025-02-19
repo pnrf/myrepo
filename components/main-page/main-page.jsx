@@ -4,8 +4,8 @@ import { MySliderPhotos } from '../my-slider/'
 export default function MainPage() {
   return (
 		<div className={styles.main_container}>
-			<section style={{margin: "60px 0", display: "flex", flexWrap: "wrap-reverse"}}>
-				<div style={{maxWidth: "620px", margin: "0 50px 0 0"}}>
+			<section style={{margin: "60px 0", display: "flex", flexWrap: "wrap-reverse", justifyContent: "space-between"}}>
+				<div style={{maxWidth: "620px"}}>
 					{/* <p style={{}}>Всем привет!</p> */}
 					<h1 style={{fontSize: "60px", fontWeight: "700", lineHeight: "1.2"}}>Юрий Панкратов</h1>
 					<h2 style={{fontSize: "40px", color: "#647F94"}}>технический писатель</h2>
@@ -15,8 +15,8 @@ export default function MainPage() {
 						<a style={{textAlign: "center", display: "inline-block", textDecoration: "none", border: "1px solid #647F94", borderRadius: "8px", padding: ".75rem 1.5rem", marginTop: ".5rem", target: "_blank"}} href="https://drive.google.com/file/d/19OEJ1l-lD0T91tixJFyk0I11RUvQTsK7/view?usp=share_link">Скачать резюме <span>↗</span></a>
 					</div>
 				</div>
-				<div style={{margin: "20px auto 0 50px"}}>
-					<img style={{margin: "0 auto", maxWidth: "600px", overflow: "hidden", borderRadius: "10px"}} src="https://github.com/pnrf/myrepo/blob/main/images/portfolioPics/hero-section/yup-hero-section.png?raw=true" alt="Фоновое фото" />
+				<div style={{margin: "0 0 30px"}}>
+					<img style={{objectFit: "cover", maxWidth: "600px", overflow: "hidden", borderRadius: "10px"}} src="https://github.com/pnrf/myrepo/blob/main/images/portfolioPics/hero-section/yup-hero-section.png?raw=true" alt="Фоновое фото" />
 				</div>
 			</section>
 			<h2 style={{fontSize: "40px", color: "#647F94", paddingBottom: "20px"}}>Портфолио</h2>
