@@ -27,7 +27,8 @@ export default function MainPage() {
 					<div style={{display: "flex", flexDirection: "column", justifyContent: "space-between", height: "100%"}}>
 						<div style={{display: "flex", flexDirection: "column", justifyContent: "space-between"}}>
 							<p style={{paddingBottom: "20px"}}>Работаю в ИТ с 2023 года.</p> 
-							<p style={{paddingBottom: "20px"}}>Разрабатываю техническую и юридическую документацию по программным продуктам, пишу тексты для интерфейсов и создаю контент для корпоративных баз знаний.</p>
+							<p style={{paddingBottom: "20px"}}>Разрабатываю техническую и юридическую документацию по программным продуктам.</p>
+							<p style={{paddingBottom: "20px"}}>Пишу тексты для интерфейсов и создаю контент для корпоративных баз знаний.</p>
 							<p style={{paddingBottom: "40px"}}>Изучаю ГОСТ 19 и 34 серий. Общаюсь с сообществом.</p>
 						</div>
 						<a href="/about">Подробнее <span>→</span></a>
