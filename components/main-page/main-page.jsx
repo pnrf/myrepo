@@ -16,7 +16,7 @@ export default function MainPage() {
 					</div>
 				</div>
 				<div style={{margin: "0 0 30px"}}>
-					<img style={{objectFit: "cover", maxWidth: "600px", overflow: "hidden", borderRadius: "10px"}} src="https://github.com/pnrf/myrepo/blob/main/images/portfolioPics/hero-section/yup-hero-section.png?raw=true" alt="Фоновое фото" />
+					<img style={{objectFit: "cover", maxWidth: "600px", overflow: "hidden", borderRadius: "10px"}} src="https://github.com/pnrf/myrepo/blob/main/images/portfolioPics/hero-section/yup-hero-section-02.png?raw=true" alt="Фоновое фото" />
 				</div>
 			</section>
 			<h2 style={{fontSize: "40px", color: "#647F94", paddingBottom: "20px"}}>Портфолио</h2>
