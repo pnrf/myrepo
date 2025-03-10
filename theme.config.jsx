@@ -85,9 +85,9 @@ export default {
 					</p>
 					<p style={{paddingBottom: '10px', fontSize: '.8em', lineHeight: '1.2em', color: '#647F94' }}>Применяются сервисы и технологии Яндекса и Google</p>
 					<p style={{ fontSize: '.8em', lineHeight: '1.2em', color: '#647F94' }}>Возрастные ограничения и применимое право:</p>
-					<div style={{display: 'flex', gap: '10px'}}>
+					<div style={{display: 'flex', gap: '6px'}}>
 						<span style={{display: 'inline-block', margin: "20px 0", padding: "10px", border: '1px solid rgb(170, 195, 214)', borderRadius: '50%', backgroundColor: '#647F94', color: 'white'}}>18+</span>
-						<span style={{display: 'inline-block', margin: "20px 0", padding: "10px", border: '1px solid rgb(170, 195, 214)', borderRadius: '50%', color: '#647F94'}}>RU</span>
+						<span style={{display: 'inline-block', margin: "20px 0", padding: "10px", border: '1px solid rgb(170, 195, 214)', borderRadius: '50%', color: '#647F94'}}>РФ</span>
 					</div>
 				</div>
 			</div>
