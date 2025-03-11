@@ -3,8 +3,10 @@ export default {
 	'---': {
     type: 'separator'
   },
-	skills: 'Умения и навыки',
-	artifacts: 'Артефакты',
-	faq: 'FAQ',
+	artifacts: 'К собеседованию',
+	faq: 'Ответы на вопросы',
+	'---faq': {
+    type: 'separator'
+  },
 	contacts: 'Контакты'
 }
