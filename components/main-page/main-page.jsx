@@ -4,19 +4,19 @@ export default function MainPage() {
   return (
 		<div className={styles.main_container}>
 			<section className={styles['hero-section']}>
-				<div style={{maxWidth: "620px", display: "flex", flexDirection: "column", justifyContent: "space-between"}}>
+				<div className={styles['hero-section__text-wrapper']}>
 					<div>
-						<h1 style={{fontSize: "60px", fontWeight: "700", lineHeight: "1.2"}}>Юрий Панкратов</h1>
-						<h2 style={{fontSize: "40px", color: "#647F94"}}>технический писатель</h2>
-						<p style={{marginTop: "1.5em", lineHeight: "1.75em"}}>На этом сайте собрал краткую информацию <a style={{color: "rgb(0, 107, 230)", textDecoration: "underline"}} href="/about/">о себе</a>, <a style={{color: "rgb(0, 107, 230)", textDecoration: "underline"}} href="/portfolio/">портфолио</a>, <a style={{color: "rgb(0, 107, 230)", textDecoration: "underline"}} href="/knowledge-base/">базу знаний</a> и <a style={{color: "rgb(0, 107, 230)", textDecoration: "underline"}} href="/blog/">блог</a>, чтобы показать свои умения и навыки на реальных примерах. </p>
-						<p style={{marginTop: "1.5em", lineHeight: "1.75em"}}>Это позволяет эффективнее общаться с рекрутерами и тимлидами в процессе поиска работы. Экономит время.</p>
+						<h1 className={styles['hero-section__title']}>Юрий Панкратов</h1>
+						<h2 className={styles['hero-section__subtitle']}>технический писатель</h2>
+						<p className={styles['hero-section__text']}>На этом сайте собрал краткую информацию <a className={styles['hero-section__link']} href="/about/">о себе</a>, <a className={styles['hero-section__link']} href="/portfolio/">портфолио</a>, <a className={styles['hero-section__link']} href="/knowledge-base/">базу знаний</a> и <a className={styles['hero-section__link']} href="/blog/">блог</a>, чтобы показать свои умения и навыки на реальных примерах. </p>
+						<p className={styles['hero-section__text']}>Это позволяет эффективнее общаться с рекрутерами и тимлидами в процессе поиска работы. Экономит время.</p>
 					</div>
 					<div>
-						<a style={{textAlign: "center", display: "inline-block", textDecoration: "none", border: "1px solid #647F94", borderRadius: "8px", padding: ".75rem 1.5rem", marginTop: ".5rem"}} href="https://drive.google.com/file/d/19OEJ1l-lD0T91tixJFyk0I11RUvQTsK7/view?usp=share_link" target="_blank">Скачать резюме <span>↗</span></a>
+						<a className={styles['hero-section__button']} href="https://drive.google.com/file/d/19OEJ1l-lD0T91tixJFyk0I11RUvQTsK7/view?usp=share_link" target="_blank">Скачать резюме ↗</a>
 					</div>
 				</div>
 				<div>
-					<img style={{objectFit: "cover", maxWidth: "600px", overflow: "hidden", borderRadius: "8px", border: "1px solid #647F94"}} src="https://github.com/pnrf/myrepo/blob/main/images/portfolioPics/hero-section/yup-hero-section-02.png?raw=true" alt="Фоновое фото" />
+					<img className={styles['hero-section__image']} src="https://github.com/pnrf/myrepo/blob/main/images/portfolioPics/hero-section/yup-hero-section-02.png?raw=true" alt="Фоновое фото" />
 				</div>
 			</section>
 			<h2 style={{fontSize: "40px", color: "#647F94", paddingBottom: "20px"}}>Портфолио</h2>
