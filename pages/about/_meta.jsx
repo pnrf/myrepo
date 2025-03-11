@@ -3,8 +3,8 @@ export default {
 	'---': {
     type: 'separator'
   },
-	artifacts: 'К собеседованию',
 	faq: 'Ответы на вопросы',
+	artifacts: 'Для собеседования',
 	'---faq': {
     type: 'separator'
   },
