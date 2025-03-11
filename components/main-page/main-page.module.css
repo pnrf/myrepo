@@ -1,6 +1,6 @@
-.wrapper {
-	width: 100%;
-	background-color: rgb(245, 218, 185);
-	font-weight: 600;
-	color: green;
+.hero-section {
+	margin: 60px 0;
+	display: flex;
+	flex-wrap: wrap-reverse;
+	justify-content: space-between;
 }

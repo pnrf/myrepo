@@ -1,1 +1,72 @@
 # React.js
+
+## Как именовать селекторы CSS-классов в JSX
+
+1. В одно слово:
+```css copy filename="CSS"
+.wrapper {
+	margin: 0 auto;
+}
+```
+
+2. Через дефис:
+```css copy filename="CSS"
+.hero-section {
+	margin: 0 auto;
+}
+```
+
+3. Через нижнее подчеркивание:
+```css copy filename="CSS"
+.section_container {
+	margin: 0 auto;
+}
+```
+
+4. Допустимо комбинировать, например, по БЭМ:
+```css copy filename="CSS"
+.hero-section__title_main {
+	margin: 0 auto;
+}
+```
+
+## Как обратиться к селектору CSS-класса в JSX
+
+1. В классическом подходе (без использования [CSS Modules](https://github.com/css-modules/css-modules)):
+
+```jsx copy filename="JSX" {5}
+import './my-styles.css'  
+  
+export default function HeroSection() {
+	return (
+		<div className={'hero-section'}></div>
+	)
+}
+
+```
+
+2. Как к объекту, если применяется [CSS Modules](https://github.com/css-modules/css-modules). При отсутствии дефисов в имени селектора:
+
+```jsx copy filename="JSX" {5}
+import styles from './styles.module.css'
+  
+export default function HeroSection() {
+	return (
+		<div className={styles.hero_section}></div>
+	)
+}
+
+```
+
+3. Как к объекту, если применяется [CSS Modules](https://github.com/css-modules/css-modules). При наличии дефисов в имени селектора:
+
+```jsx copy filename="JSX" {5}
+import styles from './styles.module.css'  
+  
+export default function HeroSection() {
+	return (
+		<div className={styles['hero-section']}></div>
+	)
+}
+
+```

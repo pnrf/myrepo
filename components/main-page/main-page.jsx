@@ -1,10 +1,9 @@
 import styles from './main-page.module.css'
-import { MySliderPhotos } from '../my-slider/'
 
 export default function MainPage() {
   return (
 		<div className={styles.main_container}>
-			<section style={{margin: "60px 0", display: "flex", flexWrap: "wrap-reverse", justifyContent: "space-between"}}>
+			<section className={styles['hero-section']}>
 				<div style={{maxWidth: "620px", display: "flex", flexDirection: "column", justifyContent: "space-between"}}>
 					<div>
 						<h1 style={{fontSize: "60px", fontWeight: "700", lineHeight: "1.2"}}>Юрий Панкратов</h1>
