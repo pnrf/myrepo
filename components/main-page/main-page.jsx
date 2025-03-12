@@ -38,11 +38,11 @@ export default function MainPage() {
 					<div className={styles['portfolio-section__content']}>
 						<div className={styles['portfolio-section__text-wrapper']}>
 							<ul className={styles['portfolio-section__card-list']}>
-								<li><a className={styles['link']} href="/portfolio/projects/registratsiya-rossiyskogo-po-v-reyestre-mintsifry">Регистрация российского ПО в реестре Минцифры</a></li>
+								<li><a className={styles['link']} href="/portfolio/projects/registratsiya-rossiyskogo-po-v-reyestre-mintsifry">Регистрация ПО в реестре Минцифры</a></li>
 								<li><a className={styles['link']} href="/portfolio/projects/registratsiya-programm-dlya-evm-v-rospatente">Регистрация программ для ЭВМ в Роспатенте</a></li>
 								<li><a className={styles['link']} href="/portfolio/projects/registratsiya-po-v-roszdravnadzore">Регистрация ПО в Росздравнадзоре</a></li>
 								<li><a className={styles['link']} href="/portfolio/projects/sostavleniye-zayavok-na-polucheniye-grantov">Составление заявок на получение грантов</a></li>
-								<li><a className={styles['link']} href="/portfolio/projects/sostavleniye-dokumentov-dlya-uchastiya-v-goszakupkakh">Составление документов для участия в госзакупках</a></li>
+								<li><a className={styles['link']} href="/portfolio/projects/sostavleniye-dokumentov-dlya-uchastiya-v-goszakupkakh">Составление документов для госзакупкок</a></li>
 							</ul>
 						</div>
 						<a href="/portfolio/projects">Все проекты →</a>
