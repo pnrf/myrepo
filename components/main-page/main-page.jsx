@@ -8,7 +8,7 @@ export default function MainPage() {
 					<div>
 						<h1 className={styles['hero-section__title']}>Юрий Панкратов</h1>
 						<h2 className={styles['hero-section__subtitle']}>технический писатель</h2>
-						<p className={styles['hero-section__text']}>На этом сайте собрал краткую информацию <a className={styles['hero-section__link']} href="/about/">о себе</a>, <a className={styles['hero-section__link']} href="/portfolio/">портфолио</a>, <a className={styles['hero-section__link']} href="/knowledge-base/">базу знаний</a> и <a className={styles['hero-section__link']} href="/blog/">блог</a>, чтобы показать свои умения и навыки на реальных примерах. </p>
+						<p className={styles['hero-section__text']}>На этом сайте собрал краткую информацию <a className={styles['link']} href="/about/">о себе</a>, <a className={styles['link']} href="/portfolio/">портфолио</a>, <a className={styles['link']} href="/knowledge-base/">базу знаний</a> и <a className={styles['link']} href="/blog/">блог</a>, чтобы показать свои умения и навыки на реальных примерах. </p>
 						<p className={styles['hero-section__text']}>Это позволяет эффективнее общаться с рекрутерами и тимлидами в процессе поиска работы. Экономит время.</p>
 					</div>
 					<div>
@@ -38,11 +38,11 @@ export default function MainPage() {
 					<div className={styles['portfolio-section__content']}>
 						<div className={styles['portfolio-section__text-wrapper']}>
 							<ul className={styles['portfolio-section__card-list']}>
-								<li><a href="/portfolio/projects/registratsiya-rossiyskogo-po-v-reyestre-mintsifry">Регистрация российского ПО в реестре Минцифры</a></li>
-								<li><a href="/portfolio/projects/registratsiya-programm-dlya-evm-v-rospatente">Регистрация программ для ЭВМ в Роспатенте</a></li>
-								<li><a href="/portfolio/projects/registratsiya-po-v-roszdravnadzore">Регистрация ПО в Росздравнадзоре</a></li>
-								<li><a href="/portfolio/projects/sostavleniye-zayavok-na-polucheniye-grantov">Составление заявок на получение грантов</a></li>
-								<li><a href="/portfolio/projects/sostavleniye-dokumentov-dlya-uchastiya-v-goszakupkakh">Составление документов для участия в госзакупках</a></li>
+								<li><a className={styles['link']} href="/portfolio/projects/registratsiya-rossiyskogo-po-v-reyestre-mintsifry">Регистрация российского ПО в реестре Минцифры</a></li>
+								<li><a className={styles['link']} href="/portfolio/projects/registratsiya-programm-dlya-evm-v-rospatente">Регистрация программ для ЭВМ в Роспатенте</a></li>
+								<li><a className={styles['link']} href="/portfolio/projects/registratsiya-po-v-roszdravnadzore">Регистрация ПО в Росздравнадзоре</a></li>
+								<li><a className={styles['link']} href="/portfolio/projects/sostavleniye-zayavok-na-polucheniye-grantov">Составление заявок на получение грантов</a></li>
+								<li><a className={styles['link']} href="/portfolio/projects/sostavleniye-dokumentov-dlya-uchastiya-v-goszakupkakh">Составление документов для участия в госзакупках</a></li>
 							</ul>
 						</div>
 						<a href="/portfolio/projects">Все проекты →</a>

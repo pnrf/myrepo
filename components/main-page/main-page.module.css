@@ -1,3 +1,8 @@
+.link {
+	color: rgb(0, 107, 230);
+	text-decoration: underline;
+}
+
 .section__title {
 	font-size: 40px;
 	color: #647F94;
@@ -32,11 +37,6 @@
 .hero-section__text {
 	margin-top: 1.5em;
 	line-height: 1.75em;
-}
-
-.hero-section__link {
-	color: rgb(0, 107, 230);
-	text-decoration: underline;
 }
 
 .hero-section__button {
