@@ -53,12 +53,11 @@ export default function MainPage() {
 					<div className={styles['portfolio-section__content']}>
 						<div className={styles['portfolio-section__text-wrapper']}>
 							<ul className={styles['portfolio-section__card-list']}>
-								<li><a href="#">Руководство пользователя (ГОСТ 19)</a></li>
-								<li><a href="#">Технические условия на ПО (ГОСТ 19)</a></li>
-								<li><a href="#">Бриф для составления ТЗ на разработку ИИ-сервиса</a></li>
-								<li><a href="#">Краткое описание программного комплекса</a></li>
-								<li><a href="#">Назначение использования ПО и перечень бизнес-функций</a></li>
-								<li><a href="#">Описание ПО для подачи заявки на грант</a></li>
+								<li><a className={styles['link']} href="/portfolio/documents/rukovodstvo-po-ekspluatatsii-po">Руководство по эксплуатации ПО</a></li>
+								<li><a className={styles['link']} href="/portfolio/documents/opisaniye-protsessov-zhiznennogo-tsikla">Описание процессов жизненного цикла</a></li>
+								<li><a className={styles['link']} href="/portfolio/documents/opisaniye-funktsionalnykh-kharakteristik">Описание функциональных характеристик ПО</a></li>
+								<li><a className={styles['link']} href="/portfolio/documents/obrazets-litsenzionnogo-dogovora">Образец лицензионного договора</a></li>
+								<li><a className={styles['link']} href="/portfolio/documents/tekhnicheskiye-usloviya">Технические условия</a></li>
 							</ul>
 						</div>
 						<a href="/portfolio/documents">Все документы →</a>
