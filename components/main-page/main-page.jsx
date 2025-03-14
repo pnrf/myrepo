@@ -57,7 +57,9 @@ export default function MainPage() {
 								<li><a className={styles['link']} href="/portfolio/documents/opisaniye-protsessov-zhiznennogo-tsikla">Описание процессов жизненного цикла</a></li>
 								<li><a className={styles['link']} href="/portfolio/documents/opisaniye-funktsionalnykh-kharakteristik">Описание функциональных характеристик ПО</a></li>
 								<li><a className={styles['link']} href="/portfolio/documents/obrazets-litsenzionnogo-dogovora">Образец лицензионного договора</a></li>
-								<li><a className={styles['link']} href="/portfolio/documents/tekhnicheskiye-usloviya">Технические условия</a></li>
+								<li><a className={styles['link']} href="/portfolio/documents/tekhnicheskiye-usloviya">Технические условия для ПО</a></li>
+								<li><a className={styles['link']} href="/portfolio/documents/tekhnicheskiye-zadaniya-na-programmnyy-kompleks">Технические задания на программный комплекс</a></li>
+								<li><a className={styles['link']} href="/portfolio/documents/dorozhnaya-karta-po-uchastiyu-v-konkurse">Дорожная карта по участию в конкурсе на грант</a></li>
 							</ul>
 						</div>
 						<a href="/portfolio/documents">Все документы →</a>

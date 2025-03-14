@@ -16,5 +16,11 @@ export default {
 	},
 	'tekhnicheskiye-usloviya': {
 		title: 'Технические условия'
+	},
+	'dorozhnaya-karta-po-uchastiyu-v-konkurse': {
+		title: 'Дорожная карта по участию в конкурсе'
+	},
+	'tekhnicheskiye-zadaniya-na-programmnyy-kompleks': {
+		title: 'Технические задания на программный комплекс'
 	}
 }
