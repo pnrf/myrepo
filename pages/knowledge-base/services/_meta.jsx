@@ -1,4 +1,5 @@
 export default {
+	'can-i-use-com': 'CanIUse.com',
 	'figma': 'Figma',
 	'github': 'Github',
 	'obsidian': 'Obsidian',

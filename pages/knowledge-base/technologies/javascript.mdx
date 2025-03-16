@@ -1,1 +1,100 @@
 # Javascript
+
+*Javascript – язык программирования.*
+
+*Официальная спецификация [EcmaScript-262](https://ecma-international.org/publications-and-standards/standards/ecma-262/). ISO/IEC 22275:2018.*  
+*MDN Web Docs: [введение в JS](https://developer.mozilla.org/ru/docs/Web/JavaScript/Guide/Introduction), [руководство по JS](https://developer.mozilla.org/ru/docs/Web/JavaScript/Guide), [справочник по JS](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference)*.
+
+---
+
+## Подключение скриптов
+
+```html filename="HTML" {8}
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Заголовок страницы</title>
+	</head>
+	<body>
+		...
+		<script src="./script.js"></script> // Перед закрывающим тегом </body>
+	</body>
+</html>
+```
+
+## Случайные числа
+
+```javascript filename="JavaScript"
+let randomNumber = Math.random() * 10;
+let randomNumberInt = Math.floor(randomNumber);
+
+console.log(randomNumber); // 9.954248768805199
+console.log(randomNumberInt); // 9
+```
+или в одну строку
+```javascript filename="JavaScript"
+let randomNumberInteger = Math.floor(Math.random() * 10);
+```
+
+## Конкатенация
+
+*Конкатенация – сложение строк.*
+
+```javascript filename="JavaScript" {2}
+function sayHello(name) {
+    return 'Добрый' + ' день, ' + name;
+}
+
+let greeting = sayHello('Георгий');
+
+console.log(greeting); // "Добрый день, Георгий" — вывели в консоль
+alert(greeting); // "Добрый день, Георгий" — показали в модальном окне
+```
+
+## Условия
+
+```javascript filename="JavaScript"
+if (age >= 18) {
+    console.log('вход разрешен');
+} else {
+    console.log('несовершеннолетним вход восперещён');
+}
+```
+
+## Циклы
+
+```javascript filename="JavaScript"
+let array = ['животные', 'растения', 'грибы'];
+
+for (let i = 0; i <= 4; i = i + 1) {
+  console.log(array[i]);
+}
+// животные
+// растения
+// грибы
+```
+
+## Выбор элементов страницы
+
+Выбрать первый элемент по селектору класса:
+```javascript filename="JavaScript"
+let button = document.querySelector('.my-button');
+```
+
+Заменить текст элемента:
+```javascript filename="JavaScript"
+let button = document.querySelector('.my-button');
+button.textContent = 'Новое название кнопки';
+```
+
+## Слушатель событий
+
+```javascript filename="JavaScript"
+// находим элемент .button и кладём в переменную
+let button = document.querySelector('.button');
+
+// обращаемся к переменной, добавляем элементу слушатель клика
+button.addEventListener('click', function () {
+  // что происходит при клике по кнопке
+});
+```

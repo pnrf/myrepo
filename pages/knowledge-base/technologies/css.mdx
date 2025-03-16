@@ -77,3 +77,14 @@ h1 {
 |Списки|`list`, `items`, `item`|
 |Текст|`title`, `subtitle`, `heading`, `headline`, `lead`, `tagline`, `caption`, `slogan`, `text`, `description`, `desc`, `exerpt`, `quote`, `blockquote`, `snippet`, `link`, `copyright`|
 
+## CSS-директивы. `@import`
+
+Синтаксис:
+```css filename="CSS"
+@import url(main.css);
+```
+
+Особенности:
+- Каждая обрабатываемая директива `@import` загружается по очереди. Это может плохо отразиться на скорости загрузки сайта. Элемент `<link>` (отличие от `@import`) позволяет загружать файлы параллельно.
+- `@import` работает, когда написана в начале файла. Внешние файлы загружаются первыми. Следующие за ними стили могут их перезаписать.
+
