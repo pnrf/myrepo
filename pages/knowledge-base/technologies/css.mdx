@@ -1,1 +1,79 @@
 # CSS
+
+*Cascading Style Sheets – каскадные таблицы стилей.*  
+
+*Официальная спецификация – https://www.w3.org/Style/CSS/Overview.ru.html*  
+*MDN Web Docs (справочник) – https://developer.mozilla.org/ru/*  
+
+---
+
+## Структура CSS-элемента
+
+```css filename="CSS"
+h1 {
+	font-size: 32px;
+	color: white;
+}
+```
+
+`h1` – селектор (по тегу);  
+`font-size` и `color` – свойства;  
+`32px` и `white` – значения свойств.  
+
+**Шорткат (shortcut)** – короткая запись свойства, содержащего несколько значений. Например: `margin: 0 auto 20px 40px;`.
+
+## Подключение стилей
+
+1. Инлайновые стили (inline styles)
+```html filename="HTML. Вариант 1"
+<head></head>
+<body>
+	<h1 style="color: white">Заголовок</h1>
+</body>
+```
+
+```html filename="HTML. Вариант 2"
+<head>
+	<style>
+		h1 {
+			font-size: 32px;
+			color: white;
+		}
+	</style>
+<head>
+<body>
+	<h1>Заголовок</h1>
+</body>
+```
+
+2. Из отдельного файла
+```html filename="index.html"
+<head>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+	<h1 class="title">Заголовок</h1>
+</body>
+```
+
+```css filename="style.css"
+.title {
+	font-size: 32px;
+	color: white;
+}
+```
+
+## Названия CSS-классов
+
+|Категория|Названия класса|
+|------|------|
+|Блоки|`page`, `header`, `main`, `body`, `footer`, `section`, `content`, `sidebar`, `aside`, `article`, `widget`|
+|Изображения|`image`, `img`, `picture`, `pic`, `illustration`, `icon`, `logo`, `avatar`, `userpic`, `thmbnail`, `thumb`|
+|Контейнеры|`container`, `wrapper`, `wrap`, `overlay`, `inner`, `holder`, `box`, `grid`, `row`, `column`, `col`|
+|Навигация|`button`, `btn`, `control`, `ctrl`, `dropdown`, `nav`, `navbar`, `sidebar`, `menu`, `topmenu`|
+|Размеры|`tiny`, `small`, `medium`, `base`, `big`, `large`, `huge`, `narrow`, `wide`, `xs`, `sm`, `lg`, `xl`, `xxl`, `xxxl`|
+|Разное|`search`, `socials`, `advertisement`, `adv`, `commercial`, `promo`, `features`, `feat`, `benefits`, `slider`, `carousel`, `card`, `pagination`, `user`, `author`, `meta`, `basket`, `breadcrmbs`, `more`, `all`, `modal`, `popup`, `tooltip`, `tip`, `preview`|
+|Состояния|`active`, `current`, `visible`, `hidden`, `error`, `warning`, `success`, `pending`|
+|Списки|`list`, `items`, `item`|
+|Текст|`title`, `subtitle`, `heading`, `headline`, `lead`, `tagline`, `caption`, `slogan`, `text`, `description`, `desc`, `exerpt`, `quote`, `blockquote`, `snippet`, `link`, `copyright`|
+

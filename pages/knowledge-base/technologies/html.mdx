@@ -1,1 +1,58 @@
 # HTML
+
+*Hyper Text Markup Language – язык гипертекстовой разметки.*  
+
+*Официальная спецификация – https://html.spec.whatwg.org/*  
+*MDN Web Docs (справочник) – https://developer.mozilla.org/ru/*  
+
+---
+
+## Структура HTML-элемента
+
+```html filename="HTML"
+<div>
+	<a href="https://myrepo.ru" target="_blank">Мой репозиторий</a>
+</div>
+```
+
+`<div>` и `<a>` – открывающие теги;  
+`</div>` и `</a>` – закрывающие теги;  
+
+`href` и `target` – атрибуты тега `<a>`;  
+`https://myrepo.ru` и `_blank` – значения атрибутов тега `<a>`;  
+`Мой репозиторий` – содержание элемента (тега `<a>`).   
+
+`<div>` по отношению к `<a>` – родительский элемент;  
+`<a>` по отношению к `<div>` – дочерний элемент, вложение.
+
+## Структура HTML-документа
+
+```html filename="HTML"
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Заголов HTML-документа</title>
+		<link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/cdn.css">
+  </head>
+  <body>
+    <!-- Текстовый комментарий в HTML-коде документа -->
+    <button>Кнопка</button>
+  </body>
+</html>
+
+```
+
+`<!DOCTYPE html></html>` – HTML-документ (страница);  
+`<head></head>` – информация о странице с метаданными;  
+`<body></body>` – видимое содержание страницы.  
+
+## Размеры элементов
+
+- `32px` – в пикселях;  
+- `10%` – в процентах от такого же свойства родительского элемента;  
+- `50vh` и `50vw` – в долях от `viewport` (окна просмотра в браузере);  
+- `1.5em` – относительно размера шрифта текущего или родительского элемента;  
+- `.8rem` – относительно размера шрифта корневого элемента `html`.
