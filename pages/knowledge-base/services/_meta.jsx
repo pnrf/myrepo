@@ -1,6 +1,6 @@
 export default {
 	'can-i-include': 'Can I include',
-	'can-i-use-com': 'CanIUse.com',
+	'can-i-use': 'Can I use',
 	'figma': 'Figma',
 	'github': 'Github',
 	'obsidian': 'Obsidian',
