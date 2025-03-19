@@ -390,6 +390,9 @@ flex-basis: auto;
 
 ## Grid Layout
 
+*Онлайн-сервис для проверки исполнения кода – https://codepen.io*
+*Игра для изучения Grid Layout – https://cssgridgarden.com/#ru*
+
 По умолчанию грид-контейнер состоит из одной строки и одного столбца. Для каждого дочернего элемента создается новая строка. `Grid` ведет себя как блочный элемент, а `inline-grid` – как строчный, т.е. занимает лишь то пространство, которое необходимо для размещения вложенных в него элементов.
 
 ### Треки
@@ -407,7 +410,7 @@ flex-basis: auto;
 /* Создает грид-контейнер, состоящий из трех строк и трех столбцов */
 ```
 
-### Свойство `repeat()`
+Для сокращения записи применяют свойство `repeat()`:
 ```css filename="CSS"
 grid-template-columns: 25% 25% 25% 25%;
 /* или можно сократить: */
@@ -430,7 +433,157 @@ grid-template-columns: repeat(4, 25%);
 /* Дизайнеры обычно используют сетку из 6-ти или 12-ти колонок */
 ```
 
-### Расположение элементов
+### Грид-линии
 
-![img](https://pictures.s3.yandex.net/resources/Untitled_69_1682179115.png)
+Растянуть элементы можно при помощи грид-линий:
+- `grid-column-start` и `grid-column-end` – для вертикальных грид-линий;
+- `grid-row-start` и `grid-row-end` – для горизонтальных грид-линий.
 
+Шорткат через `/`. Если указать только одно значение, второе по умолчанию будет `auto`:
+- `grid-row: 1;`
+- `grid-column; 2/3;`
+
+Например, в сетке из шести элементов первый элемент занимает 2/3 столбцов и 5/5 строк:
+
+```html filename="HTML" copy
+<div class="container">
+  <div class="block block_large">1</div>
+  <div class="block">2</div>
+  <div class="block">3</div>
+  <div class="block">4</div>
+  <div class="block">5</div>
+  <div class="block">6</div>
+</div>
+```
+```css filename="CSS" copy
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 40px 5px;
+}
+
+.block {
+  border: 1px solid black;
+}
+
+.block_large {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 6;
+}
+```
+
+Также можно использовать отрицательные значения:
+
+```css filename="CSS" copy
+.block_large {
+  grid-column-start: -1;
+  grid-column-end: -3;
+  grid-row-start: 1;
+  grid-row-end: 6;
+}
+```
+
+Грид-линиям можно назначать имена:
+```css filename="CSS"
+grid-template-rows: [aside-start] 300px [aside-end];
+```
+или
+```css filename="CSS"
+grid-row: aside-start / 4;
+```
+
+Ключевым словом `span` указывают количество строк или столбцов, которое должен занимать элемент до или после какой-то линии:
+```css filename="CSS"
+.block {
+	grid-column-start: 2;
+	grid-column-end: span 2;
+	grid-row-start: span 2;
+	grid-row-end: 3;
+}
+```
+
+### Грид-области
+
+Вместо грид-линий для построения сетки можно применять грид-области (прямоугольные области, состоящие из одной или нескольких грид-ячеек).
+
+Грид-область должна быть прямоугольником. Каждой области нужно задать свое уникальное имя. Для одного имени можно создать только одну область. Точкой, как правило, обозначается пустая ячейка. Например:
+
+```css filename="CSS"
+.container {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(4, 1fr);
+	grid-template-areas:
+	"header header header"
+	"news news aside"
+	"promo promo aside"
+	". footer footer";
+}
+```
+
+### Выравнивание элементов
+
+1. Выравнивание сетки в грид-контейнере:
+
+```css filename="CSS"
+.container {
+	align-content: center;
+	justify-content: space-between;
+}
+```
+или сокращенно:
+```css filename="CSS"
+.container {
+	place-content: center space-between;
+}
+```
+
+Если в `place-content` указать только одно значение, оно применится к обеим осям:
+```css filename="CSS"
+.container {
+	place-content: space-evenly;
+}
+```
+
+2. Выравнивание содержимого грид-областей:
+
+Свойство `justify-items` выравнивает элементы по направлению колонок, `align-items` — по направлению строк.
+
+```css filename="CSS"
+.container {
+	align-items: center;
+	justify-items: space-between;
+}
+```
+или сокращенно:
+```css filename="CSS"
+.container {
+	place-items: center space-between;
+}
+```
+
+3. Выравнивание содержимого внутри грид-области:
+
+Свойство `justify-self` управляет горизонтальным выравниванием, `align-self` — вертикальным.
+
+### Наложение элементов
+```css filename="CSS" {10-12}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+  width: 600px;
+  height: 400px;
+}
+
+.grid__overlay {
+  z-index: 1;
+  grid-column: 1/5;
+  grid-row: -1/-6;
+  width: 100%;
+  height: 100%;
+}
+```
