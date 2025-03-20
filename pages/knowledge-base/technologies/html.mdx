@@ -49,6 +49,36 @@
 `<head></head>` – информация о странице с метаданными;  
 `<body></body>` – видимое содержание страницы.  
 
+## Метатеги
+
+В `<head>` содержатся правила, по которым браузер обрабатывает HTML-страницу. Эти правила описываются метатегами. Например:
+
+```html filename="HTML"
+<meta charset="utf-8">
+<title>Заголовок страницы</title>
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Описание страницы">
+```
+
+Для создания красивого превью при копировании ссылки в мессенджеры или соцсети используют метатеги в формате [OpenGraph](https://ogp.me/). Вот пример с сайта [IMDb.com](https://www.imdb.com/title/tt0117500/):
+
+```html filename="HTML" {4-7}
+<html prefix="og: https://ogp.me/ns#">
+<head>
+<title>The Rock (1996)</title>
+<meta property="og:title" content="The Rock" />
+<meta property="og:type" content="video.movie" />
+<meta property="og:url" content="https://www.imdb.com/title/tt0117500/" />
+<meta property="og:image" content="https://ia.media-imdb.com/images/rock.jpg" />
+...
+</head>
+...
+</html>
+```
+
 ## Размеры элементов
 
 - `32px` – в пикселях;  
