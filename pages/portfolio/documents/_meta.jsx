@@ -12,7 +12,7 @@ export default {
 		title: 'Описание функциональных характеристик'
 	},
 	'obrazets-litsenzionnogo-dogovora': {
-		tltle: 'Образец лицензионного договора'
+		title: 'Образец лицензионного договора'
 	},
 	'tekhnicheskiye-usloviya': {
 		title: 'Технические условия'

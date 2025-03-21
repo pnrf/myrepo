@@ -60,6 +60,7 @@ export default function MainPage() {
 								<li><a className={styles['link']} href="/portfolio/documents/tekhnicheskiye-usloviya">Технические условия для ПО</a></li>
 								<li><a className={styles['link']} href="/portfolio/documents/tekhnicheskiye-zadaniya-na-programmnyy-kompleks">Технические задания на программный комплекс</a></li>
 								<li><a className={styles['link']} href="/portfolio/documents/dorozhnaya-karta-po-uchastiyu-v-konkurse">Дорожная карта по участию в конкурсе на грант</a></li>
+								<li><a className={styles['link']} href="/portfolio/projects/oformleniye-sbornika-istoriy-tekhpisateley">Сборник историй технических писателей</a></li>
 							</ul>
 						</div>
 						<a href="/portfolio/documents">Все документы →</a>
