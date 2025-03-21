@@ -37,8 +37,5 @@ export default {
 	},
 	'html-coding': {
 		title: 'Вёрстка веб-сайтов'
-	},
-	'razrabotka-sayta-dlya-tekhnicheskikh-pisateley': {
-		title: 'Разработка сайта для технических писателей'
 	}
 }
