@@ -8,11 +8,12 @@ export default function MainPage() {
 					<div>
 						<h1 className={styles['hero-section__title']}>Юрий Панкратов</h1>
 						<h2 className={styles['hero-section__subtitle']}>технический писатель</h2>
-						<p className={styles['hero-section__text']}>На этом сайте собрал краткую информацию <a className={styles['link']} href="/about/">о себе</a>, <a className={styles['link']} href="/portfolio/">портфолио</a>, <a className={styles['link']} href="/knowledge-base/">базу знаний</a> и <a className={styles['link']} href="/blog/">блог</a>, чтобы показать свои умения и навыки на реальных примерах.</p>
-						<p className={styles['hero-section__text']}>Это позволяет эффективнее общаться с рекрутерами и тимлидами в процессе поиска работы. Повышает шансы на успех.</p>
+						<p className={styles['hero-section__text']}>В этом репозитории собрал краткую информацию <a className={styles['link']} href="/about/">обо мне</a>, <a className={styles['link']} href="/portfolio/">портфолио</a>, <a className={styles['link']} href="/knowledge-base/">базу знаний</a> и <a className={styles['link']} href="/blog/">блог</a>, чтобы показать свои умения и навыки на реальных примерах.</p>
+						<p className={styles['hero-section__text']}>Это позволяет эффективнее общаться с рекрутерами и тимлидами в процессе поиска работы. Придает уверенности и повышает шансы на успех.</p>
 					</div>
-					<div>
+					<div className={styles['hero-section__buttons']}>
 						<a className={styles['hero-section__button']} href="https://drive.google.com/file/d/19OEJ1l-lD0T91tixJFyk0I11RUvQTsK7/view?usp=share_link" target="_blank">Скачать резюме ↗</a>
+						<a className={styles['hero-section__button']} href="/about/contacts">Связаться со мной</a>
 					</div>
 				</div>
 				<div>

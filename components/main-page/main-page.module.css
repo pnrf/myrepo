@@ -39,6 +39,11 @@
 	line-height: 1.75em;
 }
 
+.hero-section__buttons {
+	display: flex;
+	gap: 20px;
+}
+
 .hero-section__button {
 	text-align: center;
 	display: inline-block;
