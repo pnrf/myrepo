@@ -8,8 +8,8 @@ export default function MainPage() {
 					<div>
 						<h1 className={styles['hero-section__title']}>Юрий Панкратов</h1>
 						<h2 className={styles['hero-section__subtitle']}>технический писатель</h2>
-						<p className={styles['hero-section__text']}>На этом сайте собрал краткую информацию <a className={styles['link']} href="/about/">о себе</a>, <a className={styles['link']} href="/portfolio/">портфолио</a>, <a className={styles['link']} href="/knowledge-base/">базу знаний</a> и <a className={styles['link']} href="/blog/">блог</a>, чтобы показать свои умения и навыки на реальных примерах. </p>
-						<p className={styles['hero-section__text']}>Это позволяет эффективнее общаться с рекрутерами и тимлидами в процессе поиска работы. Экономит время.</p>
+						<p className={styles['hero-section__text']}>На этом сайте собрал краткую информацию <a className={styles['link']} href="/about/">о себе</a>, <a className={styles['link']} href="/portfolio/">портфолио</a>, <a className={styles['link']} href="/knowledge-base/">базу знаний</a> и <a className={styles['link']} href="/blog/">блог</a>, чтобы показать свои умения и навыки на реальных примерах.</p>
+						<p className={styles['hero-section__text']}>Это позволяет эффективнее общаться с рекрутерами и тимлидами в процессе поиска работы. Повышает шансы на успех.</p>
 					</div>
 					<div>
 						<a className={styles['hero-section__button']} href="https://drive.google.com/file/d/19OEJ1l-lD0T91tixJFyk0I11RUvQTsK7/view?usp=share_link" target="_blank">Скачать резюме ↗</a>
@@ -19,7 +19,7 @@ export default function MainPage() {
 					<img className={styles['hero-section__image']} src="https://github.com/pnrf/myrepo/blob/main/images/portfolioPics/hero-section/yup-hero-section-02.png?raw=true" alt="Фоновое фото" />
 				</div>
 			</section>
-			<h2 className={styles['section__title']}>Портфолио</h2>
+			<h2 className={styles['section__title']}>Чем занимаюсь</h2>
 			<section className={styles['portfolio-section']}>
 				<div className={styles['portfolio-section__about']}>
 					<h2 className={styles['portfolio-section__card-title']}>Обо мне</h2>
@@ -72,7 +72,7 @@ export default function MainPage() {
 				</div>
 			</section>
 			<section className={styles['blog-section']}>
-				<h2 className={styles['section__title']}>Блог</h2>
+				<h2 className={styles['section__title']}>О чём пишу</h2>
 			</section>
 		</div>
   )

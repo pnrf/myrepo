@@ -6,7 +6,7 @@
 .section__title {
 	font-size: 40px;
 	color: #647F94;
-	padding-bottom: 20px;
+	/* padding-bottom: 20px; */
 }
 
 .hero-section {
@@ -58,6 +58,7 @@
 }
 
 .portfolio-section {
+	margin-top: 20px;
 	display: grid;
 	grid-template-columns: 3fr 6fr 5fr;
 	gap: 2em;
@@ -115,9 +116,6 @@
 	padding-top: 20px;
 }
 
-
-
-
 .blog-section {
-	margin-top: 40px;
+	margin-top: 60px;
 }
