@@ -16,7 +16,7 @@ export default function MainPage() {
 						<a className={styles['hero-section__button']} href="/about/contacts">Связаться со мной</a>
 					</div>
 				</div>
-				<div>
+				<div className={styles['hero-section__image-wrapper']}>
 					<img className={styles['hero-section__image']} src="https://github.com/pnrf/myrepo/blob/main/images/portfolioPics/hero-section/yup-hero-section-02.png?raw=true" alt="Фоновое фото" />
 				</div>
 			</section>

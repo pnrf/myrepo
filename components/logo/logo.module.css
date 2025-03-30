@@ -1,44 +1,49 @@
-.logo_container {
-	margin-left: .8em;
+.logo__container {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+}
+
+.logo__logomark {
+	width: 38px;
+}
+
+.logo__wordmark-wrapper {
 	display: flex;
 	flex-direction: column;
 	color: #647F94;
 }
 
-.logo_title {
+.logo__wordmark {
 	font-weight: 800;
+	font-size: 16px;
 	line-height: 1.2em;
 }
 
-.logo_subtitle {
+.logo__tagline {
 	font-weight: 400;
 	font-size: .8em;
 	line-height: 1.2em;
 }
 
+@media screen and (max-width: 374px) {
+	.logo__wordmark {
+    font-size: 14px;
+  }
+
+  .logo__tagline {
+    font-size: 8px;
+  }
+}
+
 @media screen and (max-width: 424px) {
-  .logo_container {
-    margin-left: 0;
-  }
-}
-@media screen and (min-width: 768px) and (max-width: 849px) {
-  .logo_container {
-    display: none;
-  }
+	.logo__logomark {
+		display: none;
+	}
 }
 
-@media screen and (min-width: 880px) and (max-width: 949px) {
-  .logo_container {
-    margin-left: 0;
-  }
-}
-
-@media screen and (max-width: 880px) {
-  .logo_title {
-    font-size: .8em;
-  }
-
-	.logo_subtitle {
-		font-size: .6em;
+@media screen and (min-width: 768px) and (max-width: 974px) {
+	.logo__wordmark-wrapper {
+		display: none;
 	}
 }

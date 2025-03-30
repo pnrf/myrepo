@@ -1,6 +1,5 @@
 import { useRouter } from 'next/router'
 import { useConfig } from 'nextra-theme-docs'
-import Avatar from './components/avatar/avatar.js'
 import Logo from './components/logo/logo.js'
 
 export default {
@@ -25,7 +24,6 @@ export default {
   },
 	logo: (
     <>
-			<Avatar />
 			<Logo />
     </>
   ),

@@ -6,7 +6,6 @@
 .section__title {
 	font-size: 40px;
 	color: #647F94;
-	/* padding-bottom: 20px; */
 }
 
 .hero-section {
@@ -40,36 +39,49 @@
 }
 
 .hero-section__buttons {
+	margin-top: 40px;
 	display: flex;
+	flex-wrap: wrap;
 	gap: 20px;
 }
 
 .hero-section__button {
 	text-align: center;
-	display: inline-block;
+	display: flex;
+  align-items: center;
+  justify-content: center;
 	text-decoration: none;
 	border: 1px solid #647F94;
 	border-radius: 8px;
-	padding: .75rem 1.5rem;
-	margin-top: .5rem;
+	/* padding: .75rem 1.5rem; */
+	width: 175px;
+	height: 50px;
+}
+
+.hero-section__image-wrapper {
+	max-width: 600px;
+	min-width: 280px;
+	overflow: hidden;
 }
 
 .hero-section__image {
-	object-fit: cover;
-	max-width: 600px;
-	overflow: hidden;
+	width: 100%;
+	/* overflow: hidden; */
 	border-radius: 8px;
 	border: 1px solid #647F94;
 }
 
 .portfolio-section {
 	margin-top: 20px;
-	display: grid;
-	grid-template-columns: 3fr 6fr 5fr;
+	display: flex;
+	flex-wrap: wrap;
+	/* display: grid; */
+	/* grid-template-columns: 3fr 6fr 5fr; */
 	gap: 2em;
 }
 
 .portfolio-section__about {
+	max-width: 300px;
 	display: flex;
 	flex-direction: column;
 	background-color: #647F94;
@@ -123,4 +135,48 @@
 
 .blog-section {
 	margin-top: 60px;
+}
+
+
+@media screen and (max-width: 320px) {
+
+
+
+	
+}
+
+@media screen and (max-width: 375px) {
+	
+}
+
+@media screen and (max-width: 425px) {
+  .section__title {
+    font-size: 30px;
+  }
+
+	.hero-section__title {
+		margin-top: 40px;
+		font-size: 32px;
+	}
+
+	.hero-section__subtitle {
+		font-size: 26px;
+	}
+
+	.portfolio-section {
+		display: flex;
+		flex-wrap: wrap;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	
+}
+
+@media screen and (max-width: 1024px) {
+	
+}
+
+@media screen and (max-width: 1440px) {
+	
 }
