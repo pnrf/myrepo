@@ -8,8 +8,9 @@ export default function MainPage() {
 					<div className={styles['hero-section__text-wrapper']}>
 						<h1 className={styles['hero-section__title']}>Юрий Панкратов</h1>
 						<h2 className={styles['hero-section__subtitle']}>технический писатель</h2>
-						<p className={styles['hero-section__text']}>В этом репозитории собрал краткую информацию <a className={styles['link']} href="/about/">обо мне</a>, <a className={styles['link']} href="/portfolio/">портфолио</a>, <a className={styles['link']} href="/knowledge-base/">базу знаний</a> и <a className={styles['link']} href="/blog/">блог</a>, чтобы показать свои умения и навыки на реальных примерах.</p>
-						<p className={styles['hero-section__text']}>Это позволяет эффективнее общаться с рекрутерами и тимлидами в процессе поиска работы. Придает уверенности и повышает шансы на успех.</p>
+						<p className={styles['hero-section__text']}>В этом репозитории собираю информацию <a className={styles['link']} href="/about/">о себе</a>, <a className={styles['link']} href="/portfolio/">портфолио</a>, <a className={styles['link']} href="/knowledge-base/">базу знаний</a> и <a className={styles['link']} href="/blog/">блог</a>, чтобы показать свои умения и навыки на реальных примерах.</p>
+						<p className={styles['hero-section__text']}>Это позволяет мне эффективнее общаться с рекрутерами и тимлидами в процессе поиска работы. Придает уверенности. Повышает шансы на успех.</p>
+						{/* <p className={styles['hero-section__text']}>Надеюсь в будущем "Мой репозиторий" перерастет из скромного сайта-портфолио в нечто большее.</p> */}
 					</div>
 					<div className={styles['hero-section__buttons']}>
 						<a className={styles['hero-section__button']} href="https://drive.google.com/file/d/1gNXqrc9GDDaJc6u33emLr8UHspgW9PDH/view?usp=share_link" target="_blank">Резюме ↗</a>
@@ -69,6 +70,68 @@ export default function MainPage() {
 							</ul>
 						</div>
 						<a href="/portfolio/documents">Все документы →</a>
+					</div>
+				</div>
+				<div className={styles['portfolio-section__docs']}>
+					<h2 className={styles['portfolio-section__card-title']}>Концепции</h2>
+					<div className={styles['portfolio-section__content']}>
+						<div className={styles['portfolio-section__text-wrapper']}>
+							<ul className={styles['portfolio-section__card-list']}>
+								<li><a className={styles['link']} href="/knowledge-base/concepts/bem">БЭМ</a></li>
+								<li><a className={styles['link']} href="/knowledge-base/concepts/bpmn">BPMN</a></li>
+								<li><a className={styles['link']} href="/knowledge-base/concepts/docs-as-code">Docs as Code</a></li>
+								<li><a className={styles['link']} href="/knowledge-base/concepts/pixel-perfect">Pixel Perfect</a></li>
+								<li><a className={styles['link']} href="/knowledge-base/concepts/rest-api">REST API</a></li>
+								<li><a className={styles['link']} href="/knowledge-base/concepts/uml">UML</a></li>
+							</ul>
+						</div>
+						<a href="/knowledge-base#концепции">Все концепции →</a>
+					</div>
+				</div>
+				<div className={styles['portfolio-section__docs']}>
+					<h2 className={styles['portfolio-section__card-title']}>Технологии</h2>
+					<div className={styles['portfolio-section__content']}>
+						<div className={styles['portfolio-section__text-wrapper']}>
+							<ul className={styles['portfolio-section__card-list']}>
+								<li><a className={styles['link']} href="/knowledge-base/technologies/css">CSS</a></li>
+								<li><a className={styles['link']} href="/knowledge-base/technologies/javascript">JavaScript</a></li>
+								<li><a className={styles['link']} href="/knowledge-base/technologies/markdown">Markdown</a></li>
+								<li><a className={styles['link']} href="/knowledge-base/technologies/nextra">Nextra</a></li>
+								<li><a className={styles['link']} href="/knowledge-base/technologies/reactjs">React</a></li>
+								<li><a className={styles['link']} href="/knowledge-base/technologies/typescript">TypeScript</a></li>
+							</ul>
+						</div>
+						<a href="/knowledge-base#технологии">Все технологии →</a>
+					</div>
+				</div>
+				<div className={styles['portfolio-section__docs']}>
+					<h2 className={styles['portfolio-section__card-title']}>Сервисы</h2>
+					<div className={styles['portfolio-section__content']}>
+						<div className={styles['portfolio-section__text-wrapper']}>
+							<ul className={styles['portfolio-section__card-list']}>
+								<li><a className={styles['link']} href="/knowledge-base/services/can-i-include">Can I include</a></li>
+								<li><a className={styles['link']} href="/knowledge-base/services/can-i-use">Can I use</a></li>
+								<li><a className={styles['link']} href="/knowledge-base/services/figma">Figma</a></li>
+								<li><a className={styles['link']} href="/knowledge-base/services/github">GitHub</a></li>
+								<li><a className={styles['link']} href="/knowledge-base/services/obsidian">Obsidian</a></li>
+								<li><a className={styles['link']} href="/knowledge-base/services/storybook">Storybook</a></li>
+								<li><a className={styles['link']} href="/knowledge-base/services/vs-code">VS Code</a></li>
+							</ul>
+						</div>
+						<a href="/knowledge-base#технологии">Все сервисы →</a>
+					</div>
+				</div>
+				<div className={styles['portfolio-section__docs']}>
+					<h2 className={styles['portfolio-section__card-title']}>Нормативы</h2>
+					<div className={styles['portfolio-section__content']}>
+						<div className={styles['portfolio-section__text-wrapper']}>
+							<ul className={styles['portfolio-section__card-list']}>
+								<li><a className={styles['link']} href="/knowledge-base/standards/gost-2">ГОСТ 2 серии (ЕСКД)</a></li>
+								<li><a className={styles['link']} href="/knowledge-base/standards/gost-19">ГОСТ 19 серии (ЕСПД)</a></li>
+								<li><a className={styles['link']} href="/knowledge-base/standards/gost-34">ГОСТ 34 серии (КСАС)</a></li>
+							</ul>
+						</div>
+						<a href="/knowledge-base#нормативы">Все нормативы →</a>
 					</div>
 				</div>
 			</section>
