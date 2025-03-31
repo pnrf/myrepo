@@ -2,18 +2,18 @@ import styles from './main-page.module.css'
 
 export default function MainPage() {
   return (
-		<div className={styles.main_container}>
+		<div>
 			<section className={styles['hero-section']}>
-				<div className={styles['hero-section__text-wrapper']}>
-					<div>
+				<div className={styles['hero-section__content']}>
+					<div className={styles['hero-section__text-wrapper']}>
 						<h1 className={styles['hero-section__title']}>Юрий Панкратов</h1>
 						<h2 className={styles['hero-section__subtitle']}>технический писатель</h2>
 						<p className={styles['hero-section__text']}>В этом репозитории собрал краткую информацию <a className={styles['link']} href="/about/">обо мне</a>, <a className={styles['link']} href="/portfolio/">портфолио</a>, <a className={styles['link']} href="/knowledge-base/">базу знаний</a> и <a className={styles['link']} href="/blog/">блог</a>, чтобы показать свои умения и навыки на реальных примерах.</p>
 						<p className={styles['hero-section__text']}>Это позволяет эффективнее общаться с рекрутерами и тимлидами в процессе поиска работы. Придает уверенности и повышает шансы на успех.</p>
 					</div>
 					<div className={styles['hero-section__buttons']}>
-						<a className={styles['hero-section__button']} href="https://drive.google.com/file/d/19OEJ1l-lD0T91tixJFyk0I11RUvQTsK7/view?usp=share_link" target="_blank">Скачать резюме ↗</a>
-						<a className={styles['hero-section__button']} href="/about/contacts">Связаться со мной</a>
+						<a className={styles['hero-section__button']} href="https://drive.google.com/file/d/19OEJ1l-lD0T91tixJFyk0I11RUvQTsK7/view?usp=share_link" target="_blank">Резюме ↗</a>
+						<a className={styles['hero-section__button']} href="/about/contacts">Контакты</a>
 					</div>
 				</div>
 				<div className={styles['hero-section__image-wrapper']}>
@@ -34,7 +34,7 @@ export default function MainPage() {
 						<a className={styles['portfolio-section__button']} href="/about">Подробнее →</a>
 					</div>
 				</div>
-				<div className={styles['portfolio-section__white-card']}>
+				<div className={styles['portfolio-section__projects']}>
 					<h2 className={styles['portfolio-section__card-title']}>Проекты</h2>
 					<div className={styles['portfolio-section__content']}>
 						<div className={styles['portfolio-section__text-wrapper']}>
@@ -53,7 +53,7 @@ export default function MainPage() {
 						<a href="/portfolio/projects">Все проекты →</a>
 					</div>
 				</div>
-				<div className={styles['portfolio-section__white-card']}>
+				<div className={styles['portfolio-section__docs']}>
 					<h2 className={styles['portfolio-section__card-title']}>Документы</h2>
 					<div className={styles['portfolio-section__content']}>
 						<div className={styles['portfolio-section__text-wrapper']}>
