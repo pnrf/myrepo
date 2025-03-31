@@ -12,7 +12,7 @@ export default function MainPage() {
 						<p className={styles['hero-section__text']}>Это позволяет эффективнее общаться с рекрутерами и тимлидами в процессе поиска работы. Придает уверенности и повышает шансы на успех.</p>
 					</div>
 					<div className={styles['hero-section__buttons']}>
-						<a className={styles['hero-section__button']} href="https://drive.google.com/file/d/19OEJ1l-lD0T91tixJFyk0I11RUvQTsK7/view?usp=share_link" target="_blank">Резюме ↗</a>
+						<a className={styles['hero-section__button']} href="https://drive.google.com/file/d/1gNXqrc9GDDaJc6u33emLr8UHspgW9PDH/view?usp=share_link" target="_blank">Резюме ↗</a>
 						<a className={styles['hero-section__button']} href="/about/contacts">Контакты</a>
 					</div>
 				</div>
