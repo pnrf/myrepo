@@ -73,8 +73,8 @@ export default function MainPage() {
 				</div>
 			</section>
 			<h2 className={styles['section__title']}>Что изучаю</h2>
-			<section className={styles['portfolio-section']}>
-				<div className={styles['portfolio-section__docs']}>
+			<section className={styles['portfolio-section__kb-cards']}>
+				<div className={`${styles['portfolio-section__docs']} ${styles['portfolio-section__docs_size-small']}`}>
 					<h2 className={styles['portfolio-section__card-title']}>Концепции</h2>
 					<div className={styles['portfolio-section__content']}>
 						<div className={styles['portfolio-section__text-wrapper']}>
@@ -90,7 +90,7 @@ export default function MainPage() {
 						<a href="/knowledge-base#концепции">Все концепции →</a>
 					</div>
 				</div>
-				<div className={styles['portfolio-section__docs']}>
+				<div className={`${styles['portfolio-section__docs']} ${styles['portfolio-section__docs_size-small']}`}>
 					<h2 className={styles['portfolio-section__card-title']}>Технологии</h2>
 					<div className={styles['portfolio-section__content']}>
 						<div className={styles['portfolio-section__text-wrapper']}>
@@ -106,7 +106,7 @@ export default function MainPage() {
 						<a href="/knowledge-base#технологии">Все технологии →</a>
 					</div>
 				</div>
-				<div className={styles['portfolio-section__docs']}>
+				<div className={`${styles['portfolio-section__docs']} ${styles['portfolio-section__docs_size-small']}`}>
 					<h2 className={styles['portfolio-section__card-title']}>Сервисы</h2>
 					<div className={styles['portfolio-section__content']}>
 						<div className={styles['portfolio-section__text-wrapper']}>
@@ -123,7 +123,7 @@ export default function MainPage() {
 						<a href="/knowledge-base#технологии">Все сервисы →</a>
 					</div>
 				</div>
-				<div className={styles['portfolio-section__docs']}>
+				<div className={`${styles['portfolio-section__docs']} ${styles['portfolio-section__docs_size-small']}`}>
 					<h2 className={styles['portfolio-section__card-title']}>Нормативы</h2>
 					<div className={styles['portfolio-section__content']}>
 						<div className={styles['portfolio-section__text-wrapper']}>
