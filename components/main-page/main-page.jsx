@@ -9,7 +9,7 @@ export default function MainPage() {
 						<h1 className={styles['hero-section__title']}>Юрий Панкратов</h1>
 						<h2 className={styles['hero-section__subtitle']}>технический писатель</h2>
 						<p className={styles['hero-section__text']}>В этом репозитории собираю информацию <a className={styles['link']} href="/about/">о себе</a>, <a className={styles['link']} href="/portfolio/">портфолио</a>, <a className={styles['link']} href="/knowledge-base/">базу знаний</a> и <a className={styles['link']} href="/blog/">блог</a>, чтобы показать свои умения и навыки на реальных примерах.</p>
-						<p className={styles['hero-section__text']}>Это позволяет мне эффективнее общаться с рекрутерами и тимлидами в процессе поиска работы. Придает уверенности. Повышает шансы на успех.</p>
+						<p className={styles['hero-section__text']}>Это позволяет мне эффективнее общаться с рекрутерами и тимлидами в процессе поиска работы. Повышает шансы на успех.</p>
 					</div>
 					<div className={styles['hero-section__buttons']}>
 						<a className={styles['hero-section__button']} href="https://drive.google.com/file/d/1gNXqrc9GDDaJc6u33emLr8UHspgW9PDH/view?usp=share_link" target="_blank">Резюме ↗</a>
@@ -113,10 +113,8 @@ export default function MainPage() {
 					<div className={styles['portfolio-section__content']}>
 						<div className={styles['portfolio-section__text-wrapper']}>
 							<ul className={styles['portfolio-section__card-list']}>
-								<li><a className={styles['link']} href="/knowledge-base/services/jira">Confluence</a></li>
 								<li><a className={styles['link']} href="/knowledge-base/services/figma">Figma</a></li>
 								<li><a className={styles['link']} href="/knowledge-base/services/github">GitHub</a></li>
-								<li><a className={styles['link']} href="/knowledge-base/services/jira">Jira</a></li>
 								<li><a className={styles['link']} href="/knowledge-base/services/obsidian">Obsidian</a></li>
 								<li><a className={styles['link']} href="/knowledge-base/services/storybook">Storybook</a></li>
 								<li><a className={styles['link']} href="/knowledge-base/services/vs-code">VS Code</a></li>
