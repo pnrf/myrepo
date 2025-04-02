@@ -20,7 +20,7 @@ export default function MainPage() {
 					<img className={styles['hero-section__image']} src="https://github.com/pnrf/myrepo/blob/main/images/portfolioPics/hero-section/yup-hero-section-02.png?raw=true" alt="Фоновое фото" />
 				</div>
 			</section>
-			<h2 className={styles['section__title']}>Чем занимаюсь</h2>
+			<h2 className={styles['section__title']}>Портфолио</h2>
 			<section className={styles['portfolio-section']}>
 				<div className={styles['portfolio-section__about']}>
 					<h2 className={styles['portfolio-section__card-title']}>Обо мне</h2>
@@ -96,8 +96,10 @@ export default function MainPage() {
 						<div className={styles['portfolio-section__text-wrapper']}>
 							<ul className={styles['portfolio-section__card-list']}>
 								<li><a className={styles['link']} href="/knowledge-base/technologies/css">CSS</a></li>
+								<li><a className={styles['link']} href="/knowledge-base/technologies/html">HTML</a></li>
 								<li><a className={styles['link']} href="/knowledge-base/technologies/javascript">JavaScript</a></li>
 								<li><a className={styles['link']} href="/knowledge-base/technologies/markdown">Markdown</a></li>
+								<li><a className={styles['link']} href="/knowledge-base/technologies/nextjs">Next.js</a></li>
 								<li><a className={styles['link']} href="/knowledge-base/technologies/nextra">Nextra</a></li>
 								<li><a className={styles['link']} href="/knowledge-base/technologies/reactjs">React</a></li>
 								<li><a className={styles['link']} href="/knowledge-base/technologies/typescript">TypeScript</a></li>
