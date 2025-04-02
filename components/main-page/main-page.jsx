@@ -72,7 +72,7 @@ export default function MainPage() {
 					</div>
 				</div>
 			</section>
-			<h2 className={styles['section__title']}>Что изучаю</h2>
+			<h2 className={styles['section__title']}>База знаний</h2>
 			<section className={styles['portfolio-section__kb-cards']}>
 				<div className={`${styles['portfolio-section__docs']} ${styles['portfolio-section__docs_size-small']}`}>
 					<h2 className={styles['portfolio-section__card-title']}>Концепции</h2>
@@ -138,7 +138,7 @@ export default function MainPage() {
 				</div>
 			</section>
 			<section className={styles['blog-section']}>
-				<h2 className={styles['section__title']}>О чём пишу</h2>
+				<h2 className={styles['section__title']}>Блог</h2>
 			</section>
 		</div>
   )
