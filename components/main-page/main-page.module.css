@@ -126,7 +126,12 @@
 }
 
 .portfolio-section__docs_size-small {
-	width: 280px;
+	width: 270px;
+}
+
+.portfolio-section__docs_size-full {
+	width: 100%;
+	max-width: 550px;
 }
 
 .portfolio-section__card-title {

@@ -118,6 +118,7 @@ export default function MainPage() {
 								<li><a className={styles['link']} href="/knowledge-base/services/obsidian">Obsidian</a></li>
 								<li><a className={styles['link']} href="/knowledge-base/services/storybook">Storybook</a></li>
 								<li><a className={styles['link']} href="/knowledge-base/services/vs-code">VS Code</a></li>
+								<li><a className={styles['link']} href="https://gramota.ru">Грамота ↗</a></li>
 							</ul>
 						</div>
 						<a href="/knowledge-base#технологии">Все сервисы →</a>
@@ -134,6 +135,101 @@ export default function MainPage() {
 							</ul>
 						</div>
 						<a href="/knowledge-base#нормативы">Все нормативы →</a>
+					</div>
+				</div>
+				<div className={`${styles['portfolio-section__docs']} ${styles['portfolio-section__docs_size-small']}`}>
+					<h2 className={styles['portfolio-section__card-title']}>Примеры доки</h2>
+					<div className={styles['portfolio-section__content']}>
+						<div className={styles['portfolio-section__text-wrapper']}>
+							<ul className={styles['portfolio-section__card-list']}>
+								<li><a className={styles['link']} href="https://guides.gosuslugi.ru" target='_blank'>Госуслуги ↗</a></li>
+								<li><a className={styles['link']} href="https://github.com/doka-guide/content/blob/main/README.md" target='_blank'>Дока Гайд ↗</a></li>
+								<li><a className={styles['link']} href="https://docs.passwork.ru" target='_blank'>Пассворк ↗</a></li>
+								<li><a className={styles['link']} href="https://dev.rutoken.ru" target='_blank'>Рутокен ↗</a></li>
+								<li><a className={styles['link']} href="https://consta.design/libs/uikit" target='_blank'>Consta UI Kit ↗</a></li>
+								<li><a className={styles['link']} href="https://express.ms/docs/" target='_blank'>eXpress ↗</a></li>
+								<li><a className={styles['link']} href="https://gram.ax/resources/docs" target='_blank'>Gramax Docs ↗</a></li>
+							</ul>
+						</div>
+						<a href="#">Все примеры →</a>
+					</div>
+				</div>
+				<div className={`${styles['portfolio-section__docs']} ${styles['portfolio-section__docs_size-small']}`}>
+					<h2 className={styles['portfolio-section__card-title']}>Дока на заказ</h2>
+					<div className={styles['portfolio-section__content']}>
+						<div className={styles['portfolio-section__text-wrapper']}>
+							<ul className={styles['portfolio-section__card-list']}>
+								<li><a className={styles['link']} href="https://documentat.io/" target='_blank'>Documentat.io ↗</a></li>
+								<li><a className={styles['link']} href="https://dv-consulting.ru/tech-doc/" target='_blank'>DV Consulting ↗</a></li>
+								<li><a className={styles['link']} href="https://protext.su/pro/uslugi/" target='_blank'>Pro Text ↗</a></li>
+								<li><a className={styles['link']} href="https://progdoc.ru" target='_blank'>Prog Doc ↗</a></li>
+								<li><a className={styles['link']} href="https://rtmtech.ru/services/razrabotka-dokumentatsii-na-po/" target='_blank'>RTM Group ↗</a></li>
+								<li><a className={styles['link']} href="https://www.serconsrus.ru/services/tekhnicheskaya-dokumentaciya/" target='_blank'>Sercons ↗</a></li>
+								<li><a className={styles['link']} href="https://vdoke.ru/services/" target='_blank'>VDoke ↗</a></li>
+							</ul>
+						</div>
+						<a href="#">Все компании →</a>
+					</div>
+				</div>
+				<div className={`${styles['portfolio-section__docs']} ${styles['portfolio-section__docs_size-small']}`}>
+					<h2 className={styles['portfolio-section__card-title']}>Творчество</h2>
+					<div className={styles['portfolio-section__content']}>
+						<div className={styles['portfolio-section__text-wrapper']}>
+							<ul className={styles['portfolio-section__card-list']}>
+								<li><a className={styles['link']} href="/knowledge-base/creativity/painting-sketching">Рисунок и скетчинг</a></li>
+								<li><a className={styles['link']} href="/knowledge-base/creativity/animation">Анимация 2D и 3D</a></li>
+								<li><a className={styles['link']} href="/knowledge-base/creativity/illustration-children-books">Детская иллюстрация</a></li>
+								<li><a className={styles['link']} href="/knowledge-base/creativity/wood-carving">Резьба по дереву</a></li>
+							</ul>
+						</div>
+						<a href="#">Подробнее →</a>
+					</div>
+				</div>
+				<div className={`${styles['portfolio-section__docs']} ${styles['portfolio-section__docs_size-small']}`}>
+					<h2 className={styles['portfolio-section__card-title']}>Книги</h2>
+					<div className={styles['portfolio-section__content']}>
+						<div className={styles['portfolio-section__text-wrapper']}>
+							<ul className={styles['portfolio-section__card-list']}>
+								<li><a className={styles['link']} href="/knowledge-base/books/writing">Писательство</a></li>
+								<li><a className={styles['link']} href="/knowledge-base/books/classical-literature">Классическая литература</a></li>
+								<li><a className={styles['link']} href="/knowledge-base/books/science-fiction-fantasy">Фантастика и фэнтези</a></li>
+								<li><a className={styles['link']} href="/knowledge-base/books/motivation">Смысл жизни и мотивация</a></li>
+								<li><a className={styles['link']} href="/knowledge-base/books/work-life-balance">Баланс жизни и работы</a></li>
+								<li><a className={styles['link']} href="/knowledge-base/books/personal-effectiveness">Личная эффективность</a></li>
+							</ul>
+						</div>
+						<a href="#">Все книги →</a>
+					</div>
+				</div>
+				<div className={`${styles['portfolio-section__docs']} ${styles['portfolio-section__docs_size-small']}`}>
+					<h2 className={styles['portfolio-section__card-title']}>Синема</h2>
+					<div className={styles['portfolio-section__content']}>
+						<div className={styles['portfolio-section__text-wrapper']}>
+							<ul className={styles['portfolio-section__card-list']}>
+								<li><a className={styles['link']} href="/knowledge-base/cinema/cartoons">Мульфильмы</a></li>
+								<li><a className={styles['link']} href="/knowledge-base/cinema/national-fims">Отчественные фильмы</a></li>
+								<li><a className={styles['link']} href="/knowledge-base/cinema/fiction">Фантастика и космос</a></li>
+								<li><a className={styles['link']} href="/knowledge-base/cinema/comedies-romance">Комедии и романтика</a></li>
+								<li><a className={styles['link']} href="/knowledge-base/cinema/doramas">Дорамы</a></li>
+							</ul>
+						</div>
+						<a href="#">Весь список →</a>
+					</div>
+				</div>
+				<div className={`${styles['portfolio-section__docs']} ${styles['portfolio-section__docs_size-small']}`}>
+					<h2 className={styles['portfolio-section__card-title']}>О сайте</h2>
+					<div className={styles['portfolio-section__content']}>
+						<div className={styles['portfolio-section__text-wrapper']}>
+							<ul className={styles['portfolio-section__card-list']}>
+								<li><a className={styles['link']} href="/knowledge-base/about-website/rules">Правила сайта</a></li>
+								<li><a className={styles['link']} href="/knowledge-base/about-website/content-licence">Лицензия на контент</a></li>
+								<li><a className={styles['link']} href="/knowledge-base/about-website/personal-data">Обработка данных</a></li>
+								<li><a className={styles['link']} href="/knowledge-base/about-website/tech-settings">Технические настройки</a></li>
+								<li><a className={styles['link']} href="/knowledge-base/about-website/yandex-analytics">Яндекс-аналитика</a></li>
+								<li><a className={styles['link']} href="/knowledge-base/about-website/google-analytics">Google-аналитика</a></li>
+							</ul>
+						</div>
+						<a href="#">Все детали →</a>
 					</div>
 				</div>
 			</section>

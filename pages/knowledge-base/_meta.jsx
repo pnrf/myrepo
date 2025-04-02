@@ -6,5 +6,11 @@ export default {
 	'concepts': 'Концепции',
 	'technologies': 'Технологии',
 	'services': 'Сервисы',
-	'standards': 'Нормативы'
+	'standards': 'Нормативы',
+	'docs-examles': 'Примеры доки',
+	'contract-docs': 'Дока на заказ',
+	'creativity': 'Творчество',
+	'books': 'Книги',
+	'cinema': 'Синема',
+	'about-website': 'О сайте'
 }
