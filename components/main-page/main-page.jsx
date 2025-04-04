@@ -209,8 +209,8 @@ export default function MainPage() {
 								<li><a className={styles['link']} href="/knowledge-base/cinema/cartoons">Мульфильмы</a></li>
 								<li><a className={styles['link']} href="/knowledge-base/cinema/national-fims">Отчественные фильмы</a></li>
 								<li><a className={styles['link']} href="/knowledge-base/cinema/fiction">Фантастика и космос</a></li>
-								<li><a className={styles['link']} href="/knowledge-base/cinema/comedies-romance">Комедии и романтика</a></li>
 								<li><a className={styles['link']} href="/knowledge-base/cinema/doramas">Дорамы</a></li>
+								<li><a className={styles['link']} href="/knowledge-base/cinema/comedies-romance">Прочее</a></li>
 							</ul>
 						</div>
 						<a href="#">Весь список →</a>
